@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Ori-cache
+LIBS:Dori-cache
 EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
@@ -710,11 +710,8 @@ Text GLabel 7900 7700 0    50   BiDi ~ 0
 D-a
 Text GLabel 8200 8400 0    50   Output ~ 0
 col3a
-NoConn ~ 10350 8700
 Text GLabel 10350 9300 2    50   Output ~ 0
 row3a
-Text GLabel 10350 9400 2    50   Output ~ 0
-row2a
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5DDD64AC
@@ -1814,9 +1811,9 @@ F 3 "" H 15700 14300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10350 9000 2    50   Output ~ 0
-EncB
+Enc0b
 Text GLabel 10350 9100 2    50   Output ~ 0
-EncA
+Enc0a
 Text GLabel 10350 9200 2    50   Output ~ 0
 col0a
 $Comp
@@ -1831,9 +1828,9 @@ F 3 "~" H 5000 3260 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 5300 2900 2    50   Input ~ 0
-EncF
+Enc1b
 Text GLabel 5300 3100 2    50   Input ~ 0
-EncE
+Enc1a
 $Comp
 L power:GND #PWR0129
 U 1 1 5EFCABD1
@@ -1896,10 +1893,8 @@ Wire Wire Line
 	8400 6750 8650 6750
 Wire Wire Line
 	9350 6200 8450 6200
-Text GLabel 9250 6750 2    50   Input ~ 0
-EncA
 Text GLabel 9250 6550 2    50   Input ~ 0
-EncB
+Enc0b
 Wire Wire Line
 	8850 5700 8950 5700
 Connection ~ 8950 5700
@@ -2316,9 +2311,9 @@ F 3 "~" H 3450 3260 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 3750 2900 2    50   Input ~ 0
-EncF
+Enc1b
 Text GLabel 3750 3100 2    50   Input ~ 0
-EncE
+Enc1a
 $Comp
 L power:GND #PWR0165
 U 1 1 5FE11C6F
@@ -2377,9 +2372,9 @@ Connection ~ 3150 5700
 Wire Wire Line
 	3050 6150 2900 6150
 Text GLabel 3750 6750 2    50   Input ~ 0
-EncE
+Enc1a
 Text GLabel 3750 6550 2    50   Input ~ 0
-EncF
+Enc1b
 Wire Wire Line
 	4050 3600 4050 2550
 Wire Wire Line
@@ -2411,7 +2406,7 @@ Wire Wire Line
 	3850 5700 3850 6200
 Connection ~ 3850 5700
 Text GLabel 3850 3500 1    50   Input ~ 0
-col12
+col6a
 Wire Wire Line
 	3850 3500 3850 3600
 $Comp
@@ -2659,9 +2654,9 @@ $EndComp
 Text GLabel 18800 8950 2    50   Output ~ 0
 row2b
 Text GLabel 18800 8550 2    50   Output ~ 0
-EncD
+Enc2b
 Text GLabel 18800 8450 2    50   Output ~ 0
-EncC
+Enc2a
 $Comp
 L power:GNDA #PWR0162
 U 1 1 60633B5E
@@ -3218,9 +3213,9 @@ Wire Wire Line
 Wire Wire Line
 	14150 5750 14050 5750
 Text GLabel 14800 6600 2    50   Input ~ 0
-EncD
+Enc2b
 Text GLabel 14800 6800 2    50   Input ~ 0
-EncC
+Enc2a
 Wire Wire Line
 	13950 6800 14200 6800
 Wire Wire Line
@@ -4095,9 +4090,9 @@ F 3 "" H 14500 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10350 8800 2    50   Output ~ 0
-EncE
+Enc1a
 Text GLabel 10350 8900 2    50   Output ~ 0
-EncF
+Enc1b
 Text GLabel 8200 9600 0    50   Output ~ 0
 HDETECT
 $Comp
@@ -4324,5 +4319,325 @@ F 2 "" H 16900 11400 50  0001 C CNN
 F 3 "" H 16900 11400 50  0001 C CNN
 	1    16900 11400
 	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K53
+U 1 1 5F1B2B7F
+P 20200 3650
+F 0 "K53" H 20200 3650 60  0000 C CNN
+F 1 "KEYSW" H 20200 3550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100" H 20200 3650 60  0001 C CNN
+F 3 "" H 20200 3650 60  0000 C CNN
+	1    20200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D55
+U 1 1 5F1B2B85
+P 19850 3900
+F 0 "D55" H 19722 3850 60  0000 R CNN
+F 1 "D" V 20000 3850 60  0001 C CNN
+F 2 "Keeb_footprints:D_SOD-123_modified" H 19850 3900 60  0001 C CNN
+F 3 "" H 19850 3900 60  0000 C CNN
+	1    19850 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19900 3650 19850 3650
+Wire Wire Line
+	19850 3650 19850 3750
+Wire Wire Line
+	19850 3950 19850 4000
+Wire Wire Line
+	19850 4650 19850 4700
+Wire Wire Line
+	19850 4350 19850 4450
+Wire Wire Line
+	19900 4350 19850 4350
+$Comp
+L keyboard_parts:D D56
+U 1 1 5F1B2B91
+P 19850 4600
+F 0 "D56" H 19722 4550 60  0000 R CNN
+F 1 "D" V 20000 4550 60  0001 C CNN
+F 2 "Keeb_footprints:D_SOD-123_modified" H 19850 4600 60  0001 C CNN
+F 3 "" H 19850 4600 60  0000 C CNN
+	1    19850 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	20550 4350 20500 4350
+$Comp
+L keyboard_parts:KEYSW K54
+U 1 1 5F1B2B98
+P 20200 4350
+F 0 "K54" H 20200 4350 60  0000 C CNN
+F 1 "KEYSW" H 20200 4250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100" H 20200 4350 60  0001 C CNN
+F 3 "" H 20200 4350 60  0000 C CNN
+	1    20200 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K55
+U 1 1 5F1B2B9E
+P 20200 5050
+F 0 "K55" H 20200 5050 60  0000 C CNN
+F 1 "KEYSW" H 20200 4950 60  0001 C CNN
+F 2 "Keeb_footprints:MX100" H 20200 5050 60  0001 C CNN
+F 3 "" H 20200 5050 60  0000 C CNN
+	1    20200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D57
+U 1 1 5F1B2BA4
+P 19850 5300
+F 0 "D57" H 19722 5250 60  0000 R CNN
+F 1 "D" V 20000 5250 60  0001 C CNN
+F 2 "Keeb_footprints:D_SOD-123_modified" H 19850 5300 60  0001 C CNN
+F 3 "" H 19850 5300 60  0000 C CNN
+	1    19850 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19900 5050 19850 5050
+Wire Wire Line
+	19850 5050 19850 5150
+Wire Wire Line
+	20500 5050 20550 5050
+Wire Wire Line
+	19850 5350 19850 5400
+Wire Wire Line
+	19850 6050 19850 6100
+Wire Wire Line
+	19850 5750 19850 5850
+Wire Wire Line
+	19900 5750 19850 5750
+$Comp
+L keyboard_parts:D D58
+U 1 1 5F1B2BB1
+P 19850 6000
+F 0 "D58" H 19722 5950 60  0000 R CNN
+F 1 "D" V 20000 5950 60  0001 C CNN
+F 2 "Keeb_footprints:D_SOD-123_modified" H 19850 6000 60  0001 C CNN
+F 3 "" H 19850 6000 60  0000 C CNN
+	1    19850 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	20550 5750 20500 5750
+$Comp
+L keyboard_parts:KEYSW K56
+U 1 1 5F1B2BB8
+P 20200 5750
+F 0 "K56" H 20200 5750 60  0000 C CNN
+F 1 "KEYSW" H 20200 5650 60  0001 C CNN
+F 2 "Keeb_footprints:MX100" H 20200 5750 60  0001 C CNN
+F 3 "" H 20200 5750 60  0000 C CNN
+	1    20200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW5
+U 1 1 5F1B2BBE
+P 20150 3050
+F 0 "SW5" H 20150 2683 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 20150 2774 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11" H 20000 3210 50  0001 C CNN
+F 3 "~" H 20150 3310 50  0001 C CNN
+	1    20150 3050
+	-1   0    0    1   
+$EndComp
+Text GLabel 20450 2950 2    50   Input ~ 0
+Enc3b
+Text GLabel 20450 3150 2    50   Input ~ 0
+Enc3a
+Wire Wire Line
+	19850 3650 19850 3150
+Connection ~ 19850 3650
+Wire Wire Line
+	19850 2950 19850 2600
+Wire Wire Line
+	19850 2600 20750 2600
+$Comp
+L Device:Rotary_Encoder_Switch SW6
+U 1 1 5F1B2BD0
+P 20150 6700
+F 0 "SW6" H 20150 6333 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 20150 6424 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11" H 20000 6860 50  0001 C CNN
+F 3 "~" H 20150 6960 50  0001 C CNN
+	1    20150 6700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19650 6600 19850 6600
+Wire Wire Line
+	19600 6800 19850 6800
+Wire Wire Line
+	19850 5750 19750 5750
+Connection ~ 19850 5750
+Text GLabel 20450 6800 2    50   Input ~ 0
+Enc3a
+Text GLabel 20450 6600 2    50   Input ~ 0
+Enc3b
+Wire Wire Line
+	20750 3650 20750 2600
+Wire Wire Line
+	20500 3650 20550 3650
+Wire Wire Line
+	20550 5750 20550 5050
+Connection ~ 20550 3650
+Wire Wire Line
+	20550 3650 20750 3650
+Connection ~ 20550 4350
+Wire Wire Line
+	20550 4350 20550 3650
+Connection ~ 20550 5050
+Wire Wire Line
+	20550 5050 20550 4350
+Wire Wire Line
+	20550 5750 20550 6250
+Connection ~ 20550 5750
+Text GLabel 20550 3550 1    50   Input ~ 0
+col6b
+Wire Wire Line
+	20550 3550 20550 3650
+Wire Wire Line
+	18400 4000 19850 4000
+Connection ~ 18400 4000
+Wire Wire Line
+	18400 4700 19850 4700
+Connection ~ 18400 4700
+Wire Wire Line
+	18400 5400 19850 5400
+Connection ~ 18400 5400
+Wire Wire Line
+	18400 6100 19850 6100
+Connection ~ 18400 6100
+Text GLabel 9250 6750 2    50   Input ~ 0
+Enc0a
+Wire Wire Line
+	20550 6250 19650 6250
+Wire Wire Line
+	19650 6250 19650 6600
+Wire Wire Line
+	19750 5750 19750 6200
+Wire Wire Line
+	19750 6200 19600 6200
+Wire Wire Line
+	19600 6200 19600 6800
+$Comp
+L Device:Rotary_Encoder_Switch SW7
+U 1 1 5F3B5081
+P 18700 3050
+F 0 "SW7" H 18700 2683 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 18700 2774 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11" H 18550 3210 50  0001 C CNN
+F 3 "~" H 18700 3310 50  0001 C CNN
+	1    18700 3050
+	-1   0    0    1   
+$EndComp
+Text GLabel 19000 2950 2    50   Input ~ 0
+Enc3b
+Text GLabel 19000 3150 2    50   Input ~ 0
+Enc3a
+Wire Wire Line
+	18400 3650 18400 3150
+Wire Wire Line
+	18400 2950 18400 2600
+Wire Wire Line
+	18400 2600 19300 2600
+Wire Wire Line
+	19100 3650 19300 3650
+Wire Wire Line
+	19300 2600 19300 3650
+$Comp
+L lets_split-cache:HOLE U15
+U 1 1 5F440D24
+P 17650 13900
+F 0 "U15" H 17828 13953 60  0000 L CNN
+F 1 "HOLE" H 17828 13847 60  0000 L CNN
+F 2 "Keeb_footprints:MouseBite_IPC7351" H 17650 13900 60  0001 C CNN
+F 3 "" H 17650 13900 60  0001 C CNN
+	1    17650 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U16
+U 1 1 5F440D2A
+P 17650 14300
+F 0 "U16" H 17828 14353 60  0000 L CNN
+F 1 "HOLE" H 17828 14247 60  0000 L CNN
+F 2 "Keeb_footprints:MouseBite_IPC7351" H 17650 14300 60  0001 C CNN
+F 3 "" H 17650 14300 60  0001 C CNN
+	1    17650 14300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0168
+U 1 1 5F4D7FBE
+P 20450 6700
+F 0 "#PWR0168" H 20450 6450 50  0001 C CNN
+F 1 "GNDA" V 20455 6572 50  0000 R CNN
+F 2 "" H 20450 6700 50  0001 C CNN
+F 3 "" H 20450 6700 50  0001 C CNN
+	1    20450 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDA #PWR0169
+U 1 1 5F4DC16B
+P 20500 3050
+F 0 "#PWR0169" H 20500 2800 50  0001 C CNN
+F 1 "GNDA" V 20505 2922 50  0000 R CNN
+F 2 "" H 20500 3050 50  0001 C CNN
+F 3 "" H 20500 3050 50  0001 C CNN
+	1    20500 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDA #PWR0170
+U 1 1 5F4DD766
+P 19000 3050
+F 0 "#PWR0170" H 19000 2800 50  0001 C CNN
+F 1 "GNDA" V 19005 2922 50  0000 R CNN
+F 2 "" H 19000 3050 50  0001 C CNN
+F 3 "" H 19000 3050 50  0001 C CNN
+	1    19000 3050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 16650 7850 0    50   Output ~ 0
+col6b
+Text GLabel 18800 7750 2    50   Output ~ 0
+Enc3b
+Text GLabel 18800 7650 2    50   Output ~ 0
+Enc3a
+Text GLabel 10350 8700 2    50   Output ~ 0
+col6a
+Text GLabel 10350 9400 2    50   Output ~ 0
+row2a
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 5F5F8413
+P 13300 14800
+F 0 "H11" H 13400 14850 50  0000 L CNN
+F 1 "MountingHole" H 13400 14755 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 13300 14800 50  0001 C CNN
+F 3 "~" H 13300 14800 50  0001 C CNN
+	1    13300 14800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 5F5F8419
+P 13300 15000
+F 0 "H12" H 13400 15050 50  0000 L CNN
+F 1 "MountingHole" H 13400 14955 50  0000 L CNN
+F 2 "random-keyboard-parts:Generic-Mounthole" H 13300 15000 50  0001 C CNN
+F 3 "~" H 13300 15000 50  0001 C CNN
+	1    13300 15000
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
