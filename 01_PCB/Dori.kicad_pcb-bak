@@ -61,7 +61,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
-    (aux_axis_origin 160.005 72.985)
+    (aux_axis_origin 245.26875 79.375)
     (visible_elements 7FFFEFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
@@ -11718,7 +11718,7 @@
     (effects (font (size 1.25 1.25) (thickness 0.2)) (justify mirror))
   )
   (gr_line (start 112.7125 118.26875) (end 95.25 118.26875) (layer Edge.Cuts) (width 0.05) (tstamp 5F1FB6AC))
-  (gr_text "Dori Rev 1.0" (at 297.54 46.36) (layer B.SilkS) (tstamp 5F17DDD6)
+  (gr_text "Dori Rev 1.1" (at 297.54 46.36) (layer B.SilkS) (tstamp 5F17DDD6)
     (effects (font (size 1.25 1.25) (thickness 0.2)) (justify mirror))
   )
   (gr_line (start 115.8875 115.09375) (end 115.887857 104.521) (layer Edge.Cuts) (width 0.05) (tstamp 5E35F8B7))
@@ -17518,7 +17518,7 @@
     (polygon
       (pts
         (xy 89.3 40.878125) (xy 89.3 122.634375) (xy 202.40625 122.2375) (xy 234.15625 131.7625) (xy 244.72 112.315625)
-        (xy 235.346875 107.15625) (xy 242.8875 94.45625) (xy 232.171875 88.10625) (xy 232.94 40.878125)
+        (xy 235.346875 107.15625) (xy 242.8875 94.45625) (xy 232.918 88.519) (xy 232.94 40.878125)
       )
     )
     (filled_polygon
@@ -20090,7 +20090,7 @@
     (polygon
       (pts
         (xy 89.3 40.878125) (xy 89.296875 122.634375) (xy 202.40625 122.2375) (xy 234.15625 131.7625) (xy 244.72 112.315625)
-        (xy 235.346875 107.15625) (xy 242.8875 94.45625) (xy 232.171875 88.10625) (xy 232.94 40.878125)
+        (xy 235.346875 107.15625) (xy 242.8875 94.45625) (xy 232.918 88.519) (xy 232.94 40.878125)
       )
     )
     (filled_polygon
