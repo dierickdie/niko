@@ -1,4 +1,4 @@
-update=Thursday, July 30, 2020 at 08:01:08 PM
+update=Saturday, August 01, 2020 at 12:28:39 PM
 version=1
 last_client=kicad
 [general]
@@ -242,8 +242,8 @@ dPairViaGap=0.25
 Name=Thick
 Clearance=0.13
 TrackWidth=0.5
-ViaDiameter=1
-ViaDrill=0.8
+ViaDiameter=0.8
+ViaDrill=0.4
 uViaDiameter=0.5
 uViaDrill=0.2
 dPairWidth=0.2
