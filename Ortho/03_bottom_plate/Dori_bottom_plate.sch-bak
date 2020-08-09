@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Dori_bottom_plate-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -1003,55 +1003,23 @@ $EndComp
 $Comp
 L component:4PIN J1
 U 1 1 5F254D51
-P 6050 7600
-F 0 "J1" H 6063 7997 60  0000 C CNN
-F 1 "4PIN" H 6063 7891 60  0000 C CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A" H 6050 7600 50  0001 C CNN
-F 3 "" H 6050 7600 50  0001 C CNN
-	1    6050 7600
+P 4850 8150
+F 0 "J1" H 4863 8547 60  0000 C CNN
+F 1 "4PIN" H 4863 8441 60  0000 C CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A" H 4850 8150 50  0001 C CNN
+F 3 "" H 4850 8150 50  0001 C CNN
+	1    4850 8150
 	1    0    0    -1  
 $EndComp
 $Comp
 L component:4PIN J2
 U 1 1 5F25541C
-P 6750 7600
-F 0 "J2" H 6763 7997 60  0000 C CNN
-F 1 "4PIN" H 6763 7891 60  0000 C CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A" H 6750 7600 50  0001 C CNN
-F 3 "" H 6750 7600 50  0001 C CNN
-	1    6750 7600
+P 5550 8150
+F 0 "J2" H 5563 8547 60  0000 C CNN
+F 1 "4PIN" H 5563 8441 60  0000 C CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A" H 5550 8150 50  0001 C CNN
+F 3 "" H 5550 8150 50  0001 C CNN
+	1    5550 8150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H13
-U 1 1 5F417C3D
-P 3850 7450
-F 0 "H13" H 3950 7496 50  0000 L CNN
-F 1 "MountingHole" H 3950 7405 50  0000 L CNN
-F 2 "random-keyboard-parts:Generic-Mounthole" H 3850 7450 50  0001 C CNN
-F 3 "~" H 3850 7450 50  0001 C CNN
-	1    3850 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H14
-U 1 1 5F4198A2
-P 4750 7450
-F 0 "H14" H 4850 7496 50  0000 L CNN
-F 1 "MountingHole" H 4850 7405 50  0000 L CNN
-F 2 "random-keyboard-parts:Generic-Mounthole" H 4750 7450 50  0001 C CNN
-F 3 "~" H 4750 7450 50  0001 C CNN
-	1    4750 7450
-	1    0    0    -1  
-$EndComp
-Text Notes 4150 7700 0    50   ~ 0
-Reset Holes
-Wire Notes Line
-	3700 7800 3700 7300
-Wire Notes Line
-	5450 7300 5450 7800
-Wire Notes Line
-	3700 7300 5450 7300
-Wire Notes Line
-	3700 7800 5450 7800
 $EndSCHEMATC
