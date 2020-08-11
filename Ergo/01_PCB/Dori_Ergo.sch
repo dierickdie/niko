@@ -154,17 +154,6 @@ F 3 "" H 6450 8700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VCC #PWR0107
-U 1 1 5DF6EB55
-P 7450 8100
-F 0 "#PWR0107" H 7450 7950 50  0001 C CNN
-F 1 "VCC" V 7468 8227 50  0000 L CNN
-F 2 "" H 7450 8100 50  0001 C CNN
-F 3 "" H 7450 8100 50  0001 C CNN
-	1    7450 8100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:VCC #PWR0110
 U 1 1 5DF6F7F4
 P 7450 8800
@@ -511,17 +500,6 @@ F 1 "GND" V 7705 10422 50  0000 R CNN
 F 2 "" H 7700 10550 50  0001 C CNN
 F 3 "" H 7700 10550 50  0001 C CNN
 	1    7700 10550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR0125
-U 1 1 5E2877E3
-P 8600 10550
-F 0 "#PWR0125" H 8600 10400 50  0001 C CNN
-F 1 "VCC" V 8617 10678 50  0000 L CNN
-F 2 "" H 8600 10550 50  0001 C CNN
-F 3 "" H 8600 10550 50  0001 C CNN
-	1    8600 10550
 	0    1    1    0   
 $EndComp
 Text Notes 6350 11500 0    50   ~ 0
@@ -1744,19 +1722,18 @@ Text GLabel 14950 8750 2    50   BiDi ~ 0
 DBUSb+
 Text GLabel 14950 8450 2    50   BiDi ~ 0
 DBUSb-
-Text GLabel 19600 7850 2    50   Output ~ 0
+Text GLabel 19600 7350 2    50   Output ~ 0
 row1b
-Text GLabel 19600 8750 2    50   Output ~ 0
+Text GLabel 19600 7850 2    50   Output ~ 0
 col1b
-Text GLabel 19600 8650 2    50   Output ~ 0
+Text GLabel 17450 7850 0    50   Output ~ 0
 col2b
-Text GLabel 19600 7950 2    50   Output ~ 0
+Text GLabel 17450 7150 0    50   Output ~ 0
 row0b
 Text GLabel 17450 8150 0    50   Output ~ 0
 col4b
 Text GLabel 17450 7950 0    50   Output ~ 0
 col5b
-NoConn ~ 19600 7350
 $Comp
 L Device:Polyfuse_Small F2
 U 1 1 5FB94A1D
@@ -1832,10 +1809,10 @@ Text GLabel 17450 7450 0    50   Input ~ 0
 Db+
 Text GLabel 17450 7350 0    50   Input ~ 0
 Db-
-Text GLabel 17450 9050 0    50   Output ~ 0
+Text GLabel 19600 7450 2    50   Output ~ 0
 col3b
 NoConn ~ 19600 8350
-Text GLabel 19600 9050 2    50   Output ~ 0
+Text GLabel 17450 8250 0    50   Output ~ 0
 row3b
 $Comp
 L Device:C_Small C12
@@ -1901,7 +1878,7 @@ Text Notes 15100 12100 0    50   ~ 0
 Power LED
 Wire Notes Line
 	14550 12150 14550 11700
-Text GLabel 19600 8850 2    50   Output ~ 0
+Text GLabel 19600 9050 2    50   Output ~ 0
 col0b
 Text GLabel 17450 8850 0    50   Output ~ 0
 SCLb
@@ -2174,17 +2151,6 @@ Wire Wire Line
 	2250 3950 2400 3950
 Connection ~ 2400 3950
 $Comp
-L power:VDD #PWR0138
-U 1 1 604F88A2
-P 17450 7750
-F 0 "#PWR0138" H 17450 7600 50  0001 C CNN
-F 1 "VDD" V 17468 7877 50  0000 L CNN
-F 2 "" H 17450 7750 50  0001 C CNN
-F 3 "" H 17450 7750 50  0001 C CNN
-	1    17450 7750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:VDD #PWR0139
 U 1 1 604F9EB0
 P 19600 7150
@@ -2351,11 +2317,9 @@ F 3 "" H 19600 9150 50  0001 C CNN
 	1    19600 9150
 	0    1    1    0   
 $EndComp
-Text GLabel 19600 8950 2    50   Output ~ 0
-row2b
-Text GLabel 19600 8550 2    50   Output ~ 0
+Text GLabel 19600 8750 2    50   Output ~ 0
 Enc2b
-Text GLabel 19600 8450 2    50   Output ~ 0
+Text GLabel 19600 8850 2    50   Output ~ 0
 Enc2a
 $Comp
 L power:GNDA #PWR0162
@@ -2486,7 +2450,6 @@ Wire Wire Line
 	18500 12200 18300 12200
 Wire Wire Line
 	18300 12000 18100 12000
-Connection ~ 18300 12000
 Wire Wire Line
 	18100 12000 17900 12000
 Connection ~ 18100 12000
@@ -2494,8 +2457,6 @@ Wire Wire Line
 	17900 12000 17700 12000
 Connection ~ 17900 12000
 Connection ~ 17700 12000
-Wire Wire Line
-	18500 12000 18300 12000
 $Comp
 L Device:C_Small C7
 U 1 1 5FB9493E
@@ -2586,17 +2547,6 @@ F 1 "GNDA" V 15855 10623 50  0000 R CNN
 F 2 "" H 15850 10750 50  0001 C CNN
 F 3 "" H 15850 10750 50  0001 C CNN
 	1    15850 10750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VDD #PWR0158
-U 1 1 6050CEE0
-P 18750 10550
-F 0 "#PWR0158" H 18750 10400 50  0001 C CNN
-F 1 "VDD" V 18767 10678 50  0000 L CNN
-F 2 "" H 18750 10550 50  0001 C CNN
-F 3 "" H 18750 10550 50  0001 C CNN
-	1    18750 10550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3785,12 +3735,12 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0135
 U 1 1 5FC4DB27
-P 6000 7250
-F 0 "#PWR0135" H 6000 7100 50  0001 C CNN
-F 1 "+5V" H 6015 7423 50  0000 C CNN
-F 2 "" H 6000 7250 50  0001 C CNN
-F 3 "" H 6000 7250 50  0001 C CNN
-	1    6000 7250
+P 5450 7600
+F 0 "#PWR0135" H 5450 7450 50  0001 C CNN
+F 1 "+5V" H 5465 7773 50  0000 C CNN
+F 2 "" H 5450 7600 50  0001 C CNN
+F 3 "" H 5450 7600 50  0001 C CNN
+	1    5450 7600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4201,7 +4151,7 @@ F 3 "" H 19800 3050 50  0001 C CNN
 	1    19800 3050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 17450 7850 0    50   Output ~ 0
+Text GLabel 19600 7550 2    50   Output ~ 0
 col6b
 Text GLabel 19600 7750 2    50   Output ~ 0
 Enc3b
@@ -4426,17 +4376,6 @@ Wire Notes Line
 	11150 5150 11150 3800
 Wire Notes Line
 	11150 3800 12700 3800
-NoConn ~ 17450 8250
-NoConn ~ 19600 7450
-NoConn ~ 19600 7550
-NoConn ~ 17450 7150
-NoConn ~ 17450 9150
-Text GLabel 5450 7600 1    50   Output ~ 0
-UVcca
-Text GLabel 15950 7300 2    50   Output ~ 0
-UVccb
-Text GLabel 17450 7250 0    50   Input ~ 0
-UVccb
 Wire Wire Line
 	8200 5350 7350 5350
 Connection ~ 2400 5350
@@ -4757,12 +4696,6 @@ F 3 "" H 9200 12250 50  0001 C CNN
 	1    9200 12250
 	1    0    0    -1  
 $EndComp
-Text GLabel 7450 7600 0    50   Input ~ 0
-UVcca
-Text GLabel 8250 12000 1    50   Output ~ 0
-UVcca
-Text GLabel 4800 11950 0    50   Input ~ 0
-UVcca
 $Comp
 L power:VDD #PWR0120
 U 1 1 5F3A8DE0
@@ -4773,5 +4706,117 @@ F 2 "" H 16600 8100 50  0001 C CNN
 F 3 "" H 16600 8100 50  0001 C CNN
 	1    16600 8100
 	0    -1   -1   0   
+$EndComp
+Text GLabel 19600 8650 2    50   Output ~ 0
+row2b
+$Comp
+L power:+5V #PWR0107
+U 1 1 5F53C25B
+P 7450 7600
+F 0 "#PWR0107" H 7450 7450 50  0001 C CNN
+F 1 "+5V" V 7465 7728 50  0000 L CNN
+F 2 "" H 7450 7600 50  0001 C CNN
+F 3 "" H 7450 7600 50  0001 C CNN
+	1    7450 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0125
+U 1 1 5F53D8FF
+P 7450 8100
+F 0 "#PWR0125" H 7450 7950 50  0001 C CNN
+F 1 "+5V" V 7465 8228 50  0000 L CNN
+F 2 "" H 7450 8100 50  0001 C CNN
+F 3 "" H 7450 8100 50  0001 C CNN
+	1    7450 8100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0126
+U 1 1 5F53EF8E
+P 4800 11950
+F 0 "#PWR0126" H 4800 11800 50  0001 C CNN
+F 1 "+5V" V 4815 12078 50  0000 L CNN
+F 2 "" H 4800 11950 50  0001 C CNN
+F 3 "" H 4800 11950 50  0001 C CNN
+	1    4800 11950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0137
+U 1 1 5F5405EB
+P 8250 12000
+F 0 "#PWR0137" H 8250 11850 50  0001 C CNN
+F 1 "+5V" H 8265 12173 50  0000 C CNN
+F 2 "" H 8250 12000 50  0001 C CNN
+F 3 "" H 8250 12000 50  0001 C CNN
+	1    8250 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR0138
+U 1 1 5F54326C
+P 17450 7250
+F 0 "#PWR0138" H 17450 7100 50  0001 C CNN
+F 1 "+5VA" V 17465 7377 50  0000 L CNN
+F 2 "" H 17450 7250 50  0001 C CNN
+F 3 "" H 17450 7250 50  0001 C CNN
+	1    17450 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5VA #PWR0141
+U 1 1 5F5448E2
+P 17450 7750
+F 0 "#PWR0141" H 17450 7600 50  0001 C CNN
+F 1 "+5VA" V 17465 7877 50  0000 L CNN
+F 2 "" H 17450 7750 50  0001 C CNN
+F 3 "" H 17450 7750 50  0001 C CNN
+	1    17450 7750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDD #PWR0149
+U 1 1 5F550A69
+P 15950 7300
+F 0 "#PWR0149" H 15950 7150 50  0001 C CNN
+F 1 "VDD" V 15967 7428 50  0000 L CNN
+F 2 "" H 15950 7300 50  0001 C CNN
+F 3 "" H 15950 7300 50  0001 C CNN
+	1    15950 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0175
+U 1 1 5F61E9FB
+P 8600 10550
+F 0 "#PWR0175" H 8600 10400 50  0001 C CNN
+F 1 "+5V" V 8615 10678 50  0000 L CNN
+F 2 "" H 8600 10550 50  0001 C CNN
+F 3 "" H 8600 10550 50  0001 C CNN
+	1    8600 10550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5VA #PWR0158
+U 1 1 5F66ADA7
+P 18750 10550
+F 0 "#PWR0158" H 18750 10400 50  0001 C CNN
+F 1 "+5VA" V 18765 10678 50  0000 L CNN
+F 2 "" H 18750 10550 50  0001 C CNN
+F 3 "" H 18750 10550 50  0001 C CNN
+	1    18750 10550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5VA #PWR0176
+U 1 1 5F72CE9B
+P 18500 12000
+F 0 "#PWR0176" H 18500 11850 50  0001 C CNN
+F 1 "+5VA" H 18515 12173 50  0000 C CNN
+F 2 "" H 18500 12000 50  0001 C CNN
+F 3 "" H 18500 12000 50  0001 C CNN
+	1    18500 12000
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
