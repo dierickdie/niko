@@ -12,4 +12,5 @@
   (lib (name therick64BA_19mm-rescue)(type Legacy)(uri ${KIPRJMOD}/therick64BA_19mm-rescue.lib)(options "")(descr ""))
   (lib (name therick64BA-rescue)(type Legacy)(uri ${KIPRJMOD}/therick64BA-rescue.lib)(options "")(descr ""))
   (lib (name Dori_Ergo-rescue)(type Legacy)(uri ${KIPRJMOD}/Dori_Ergo-rescue.lib)(options "")(descr ""))
+  (lib (name niko_Ergo-rescue)(type Legacy)(uri ${KIPRJMOD}/niko_Ergo-rescue.lib)(options "")(descr ""))
 )
