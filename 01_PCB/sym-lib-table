@@ -12,4 +12,5 @@
   (lib (name niko_Ergo-rescue)(type Legacy)(uri ${KIPRJMOD}/niko_Ergo-rescue.lib)(options "")(descr ""))
   (lib (name niko_ergo-rescue)(type Legacy)(uri ${KIPRJMOD}/niko_ergo-rescue.lib)(options "")(descr ""))
   (lib (name ai03-locallib)(type Legacy)(uri /Users/rick/Documents/GitHub/libraries/locallib.pretty/schema/ai03-locallib.lib)(options "")(descr ""))
+  (lib (name acheronSymbols)(type Legacy)(uri /Users/rick/Documents/GitHub/libraries/AcheronLibrary-master/symbols/acheronSymbols.lib)(options "")(descr ""))
 )
