@@ -334,11 +334,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# niko_ergo-rescue_AVR-ISP-6_mod-Connector-Dori_Ergo-rescue
+# niko-rescue_AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue
 #
-DEF niko_ergo-rescue_AVR-ISP-6_mod-Connector-Dori_Ergo-rescue J 0 40 Y Y 1 F N
+DEF niko-rescue_AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue J 0 40 Y Y 1 F N
 F0 "J" 0 400 50 H V L CNN
-F1 "niko_ergo-rescue_AVR-ISP-6_mod-Connector-Dori_Ergo-rescue" 0 -300 50 H V L CNN
+F1 "niko-rescue_AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue" 0 -300 50 H V L CNN
 F2 "" -250 50 50 V I C CNN
 F3 "" -1275 -550 50 H I C CNN
 $FPLIST

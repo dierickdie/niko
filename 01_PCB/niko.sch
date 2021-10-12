@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:niko_ergo-cache
+LIBS:niko-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -223,9 +223,9 @@ Text GLabel 4950 8800 2    50   BiDi ~ 0
 DBUS-
 Text GLabel 7450 8500 0    50   Output ~ 0
 row1
-Text GLabel 9600 7700 2    50   Output ~ 0
-col1
 Text GLabel 9600 7800 2    50   Output ~ 0
+col1
+Text GLabel 9600 7900 2    50   Output ~ 0
 col2
 $Comp
 L power:VCC #PWR0115
@@ -238,7 +238,7 @@ F 3 "" H 9600 8500 50  0001 C CNN
 	1    9600 8500
 	0    1    1    0   
 $EndComp
-Text GLabel 9600 8100 2    50   Output ~ 0
+Text GLabel 9600 8200 2    50   Output ~ 0
 col5
 $Comp
 L Device:Polyfuse_Small F1
@@ -353,7 +353,7 @@ Text GLabel 7450 7800 0    50   Input ~ 0
 D+
 Text GLabel 7450 7700 0    50   Input ~ 0
 D-
-Text GLabel 10900 8100 2    50   Output ~ 0
+Text GLabel 9600 9300 2    50   Output ~ 0
 row3
 $Comp
 L Device:C_Small C6
@@ -1205,7 +1205,7 @@ col4
 Text GLabel 8900 2850 1    50   Input ~ 0
 col5
 $Comp
-L niko_ergo-rescue:AVR-ISP-6_mod-Connector-Dori_Ergo-rescue J2
+L niko-rescue:AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue J2
 U 1 1 5EC10E7A
 P 8100 10650
 F 0 "J2" V 7683 10700 50  0000 C CNN
@@ -1264,9 +1264,9 @@ Wire Notes Line
 	5900 12150 4500 12150
 Wire Notes Line
 	4500 12150 4500 11700
-Text GLabel 10900 8700 2    50   Output ~ 0
+Text GLabel 9600 8900 2    50   Output ~ 0
 Enc0b
-Text GLabel 10900 8600 2    50   Output ~ 0
+Text GLabel 9600 8800 2    50   Output ~ 0
 Enc0a
 Text GLabel 7450 8300 0    50   Output ~ 0
 col0
@@ -2119,11 +2119,11 @@ Wire Wire Line
 	8200 5000 8200 5100
 Text GLabel 7450 8400 0    50   Output ~ 0
 row0
-Text GLabel 9600 7900 2    50   Output ~ 0
-col3
-Text GLabel 10900 8400 2    50   Output ~ 0
-row2
 Text GLabel 9600 8000 2    50   Output ~ 0
+col3
+Text GLabel 9600 9200 2    50   Output ~ 0
+row2
+Text GLabel 9600 8100 2    50   Output ~ 0
 col4
 $Comp
 L power:VCC #PWR0103
@@ -2933,10 +2933,6 @@ Wire Wire Line
 	8900 2950 8900 3600
 Connection ~ 8900 2950
 Connection ~ 8200 6050
-Text GLabel 10900 8900 2    50   Output ~ 0
-Enc1b
-Text GLabel 10900 8800 2    50   Output ~ 0
-Enc1a
 $Comp
 L power:VCC #PWR0128
 U 1 1 626AF0D3
@@ -3039,20 +3035,22 @@ Text GLabel 8200 11050 3    50   Output ~ 0
 row0
 Text GLabel 8100 11050 3    50   Output ~ 0
 row1
-Text GLabel 10900 9100 2    50   Output ~ 0
+Text GLabel 7450 9200 0    50   Output ~ 0
 col7
-Text GLabel 10900 9000 2    50   Output ~ 0
+Text GLabel 9600 9000 2    50   Output ~ 0
 col6
-Text GLabel 10900 9200 2    50   Output ~ 0
+Text GLabel 7450 9300 0    50   Output ~ 0
 col8
-Text GLabel 10900 9300 2    50   Output ~ 0
+Text GLabel 7450 9400 0    50   Output ~ 0
 col9
-Text GLabel 10900 9400 2    50   Output ~ 0
+Text GLabel 7450 9500 0    50   Output ~ 0
 col10
-Text GLabel 10900 9500 2    50   Output ~ 0
+Text GLabel 7450 9600 0    50   Output ~ 0
 col11
-Text GLabel 9600 8200 2    50   Output ~ 0
+Text GLabel 9600 8700 2    50   Output ~ 0
 col12
 Text GLabel 9000 6700 0    50   Output ~ 0
 col12
+Text GLabel 9600 9400 2    50   Output ~ 0
+row4
 $EndSCHEMATC
