@@ -20,7 +20,7 @@ U 1 1 5F4B4D1C
 P 2650 1550
 F 0 "U1" H 2550 1600 60  0000 L CNN
 F 1 "HOLE" H 2550 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2650 1550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 2650 1550 60  0001 C CNN
 F 3 "" H 2650 1550 60  0001 C CNN
 	1    2650 1550
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5F4B4D22
 P 2950 1550
 F 0 "U2" H 2850 1600 60  0000 L CNN
 F 1 "HOLE" H 2850 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2950 1550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 2950 1550 60  0001 C CNN
 F 3 "" H 2950 1550 60  0001 C CNN
 	1    2950 1550
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5F4B4D28
 P 3250 1550
 F 0 "U3" H 3150 1600 60  0000 L CNN
 F 1 "HOLE" H 3150 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3250 1550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3250 1550 60  0001 C CNN
 F 3 "" H 3250 1550 60  0001 C CNN
 	1    3250 1550
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 5F4B4D2E
 P 3550 1550
 F 0 "U4" H 3450 1600 60  0000 L CNN
 F 1 "HOLE" H 3450 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3550 1550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3550 1550 60  0001 C CNN
 F 3 "" H 3550 1550 60  0001 C CNN
 	1    3550 1550
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 5F4B4D34
 P 2650 1850
 F 0 "U13" H 2550 1900 60  0000 L CNN
 F 1 "HOLE" H 2550 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2650 1850 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 2650 1850 60  0001 C CNN
 F 3 "" H 2650 1850 60  0001 C CNN
 	1    2650 1850
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 1 1 5F4B4D3A
 P 2950 1850
 F 0 "U14" H 2850 1900 60  0000 L CNN
 F 1 "HOLE" H 2850 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2950 1850 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 2950 1850 60  0001 C CNN
 F 3 "" H 2950 1850 60  0001 C CNN
 	1    2950 1850
 	1    0    0    -1  
@@ -86,7 +86,7 @@ U 1 1 5F4B4D40
 P 3250 1850
 F 0 "U15" H 3150 1900 60  0000 L CNN
 F 1 "HOLE" H 3150 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3250 1850 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3250 1850 60  0001 C CNN
 F 3 "" H 3250 1850 60  0001 C CNN
 	1    3250 1850
 	1    0    0    -1  
@@ -97,7 +97,7 @@ U 1 1 5F4B4D46
 P 3550 1850
 F 0 "U16" H 3450 1900 60  0000 L CNN
 F 1 "HOLE" H 3450 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3550 1850 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3550 1850 60  0001 C CNN
 F 3 "" H 3550 1850 60  0001 C CNN
 	1    3550 1850
 	1    0    0    -1  
@@ -108,7 +108,7 @@ U 1 1 5F4B4D4C
 P 2650 2150
 F 0 "U25" H 2550 2200 60  0000 L CNN
 F 1 "HOLE" H 2550 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2650 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 2650 2150 60  0001 C CNN
 F 3 "" H 2650 2150 60  0001 C CNN
 	1    2650 2150
 	1    0    0    -1  
@@ -119,7 +119,7 @@ U 1 1 5F4B4D52
 P 2950 2150
 F 0 "U26" H 2850 2200 60  0000 L CNN
 F 1 "HOLE" H 2850 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2950 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 2950 2150 60  0001 C CNN
 F 3 "" H 2950 2150 60  0001 C CNN
 	1    2950 2150
 	1    0    0    -1  
@@ -130,7 +130,7 @@ U 1 1 5F4B4D58
 P 3250 2150
 F 0 "U27" H 3150 2200 60  0000 L CNN
 F 1 "HOLE" H 3150 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3250 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3250 2150 60  0001 C CNN
 F 3 "" H 3250 2150 60  0001 C CNN
 	1    3250 2150
 	1    0    0    -1  
@@ -141,7 +141,7 @@ U 1 1 5F4B4D5E
 P 3550 2150
 F 0 "U28" H 3450 2200 60  0000 L CNN
 F 1 "HOLE" H 3450 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3550 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3550 2150 60  0001 C CNN
 F 3 "" H 3550 2150 60  0001 C CNN
 	1    3550 2150
 	1    0    0    -1  
@@ -152,7 +152,7 @@ U 1 1 5F4B4D64
 P 2650 2450
 F 0 "U37" H 2550 2500 60  0000 L CNN
 F 1 "HOLE" H 2550 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2650 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 2650 2450 60  0001 C CNN
 F 3 "" H 2650 2450 60  0001 C CNN
 	1    2650 2450
 	1    0    0    -1  
@@ -163,7 +163,7 @@ U 1 1 5F4B4D6A
 P 2950 2450
 F 0 "U38" H 2850 2500 60  0000 L CNN
 F 1 "HOLE" H 2850 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2950 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 2950 2450 60  0001 C CNN
 F 3 "" H 2950 2450 60  0001 C CNN
 	1    2950 2450
 	1    0    0    -1  
@@ -174,7 +174,7 @@ U 1 1 5F4B4D70
 P 3250 2450
 F 0 "U39" H 3150 2500 60  0000 L CNN
 F 1 "HOLE" H 3150 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3250 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3250 2450 60  0001 C CNN
 F 3 "" H 3250 2450 60  0001 C CNN
 	1    3250 2450
 	1    0    0    -1  
@@ -185,7 +185,7 @@ U 1 1 5F4B4D76
 P 3550 2450
 F 0 "U40" H 3450 2500 60  0000 L CNN
 F 1 "HOLE" H 3450 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3550 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3550 2450 60  0001 C CNN
 F 3 "" H 3550 2450 60  0001 C CNN
 	1    3550 2450
 	1    0    0    -1  
@@ -196,7 +196,7 @@ U 1 1 5F4B715A
 P 3850 1550
 F 0 "U5" H 3750 1600 60  0000 L CNN
 F 1 "HOLE" H 3750 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3850 1550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3850 1550 60  0001 C CNN
 F 3 "" H 3850 1550 60  0001 C CNN
 	1    3850 1550
 	1    0    0    -1  
@@ -207,7 +207,7 @@ U 1 1 5F4B7160
 P 4150 1550
 F 0 "U6" H 4050 1600 60  0000 L CNN
 F 1 "HOLE" H 4050 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4150 1550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 4150 1550 60  0001 C CNN
 F 3 "" H 4150 1550 60  0001 C CNN
 	1    4150 1550
 	1    0    0    -1  
@@ -218,7 +218,7 @@ U 1 1 5F4B7166
 P 4950 1550
 F 0 "U7" H 4850 1600 60  0000 L CNN
 F 1 "HOLE" H 4850 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 1550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 4950 1550 60  0001 C CNN
 F 3 "" H 4950 1550 60  0001 C CNN
 	1    4950 1550
 	1    0    0    -1  
@@ -229,7 +229,7 @@ U 1 1 5F4B716C
 P 5250 1550
 F 0 "U8" H 5150 1600 60  0000 L CNN
 F 1 "HOLE" H 5150 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 1550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5250 1550 60  0001 C CNN
 F 3 "" H 5250 1550 60  0001 C CNN
 	1    5250 1550
 	1    0    0    -1  
@@ -240,7 +240,7 @@ U 1 1 5F4B7172
 P 3850 1850
 F 0 "U17" H 3750 1900 60  0000 L CNN
 F 1 "HOLE" H 3750 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3850 1850 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3850 1850 60  0001 C CNN
 F 3 "" H 3850 1850 60  0001 C CNN
 	1    3850 1850
 	1    0    0    -1  
@@ -251,7 +251,7 @@ U 1 1 5F4B7178
 P 4150 1850
 F 0 "U18" H 4050 1900 60  0000 L CNN
 F 1 "HOLE" H 4050 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4150 1850 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 4150 1850 60  0001 C CNN
 F 3 "" H 4150 1850 60  0001 C CNN
 	1    4150 1850
 	1    0    0    -1  
@@ -262,7 +262,7 @@ U 1 1 5F4B717E
 P 4950 1850
 F 0 "U19" H 4850 1900 60  0000 L CNN
 F 1 "HOLE" H 4850 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 1850 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 4950 1850 60  0001 C CNN
 F 3 "" H 4950 1850 60  0001 C CNN
 	1    4950 1850
 	1    0    0    -1  
@@ -273,7 +273,7 @@ U 1 1 5F4B7184
 P 5250 1850
 F 0 "U20" H 5150 1900 60  0000 L CNN
 F 1 "HOLE" H 5150 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 1850 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5250 1850 60  0001 C CNN
 F 3 "" H 5250 1850 60  0001 C CNN
 	1    5250 1850
 	1    0    0    -1  
@@ -284,7 +284,7 @@ U 1 1 5F4B718A
 P 3850 2150
 F 0 "U29" H 3750 2200 60  0000 L CNN
 F 1 "HOLE" H 3750 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3850 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3850 2150 60  0001 C CNN
 F 3 "" H 3850 2150 60  0001 C CNN
 	1    3850 2150
 	1    0    0    -1  
@@ -295,7 +295,7 @@ U 1 1 5F4B7190
 P 4150 2150
 F 0 "U30" H 4050 2200 60  0000 L CNN
 F 1 "HOLE" H 4050 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4150 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 4150 2150 60  0001 C CNN
 F 3 "" H 4150 2150 60  0001 C CNN
 	1    4150 2150
 	1    0    0    -1  
@@ -306,7 +306,7 @@ U 1 1 5F4B7196
 P 4950 2150
 F 0 "U31" H 4850 2200 60  0000 L CNN
 F 1 "HOLE" H 4850 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 4950 2150 60  0001 C CNN
 F 3 "" H 4950 2150 60  0001 C CNN
 	1    4950 2150
 	1    0    0    -1  
@@ -317,7 +317,7 @@ U 1 1 5F4B719C
 P 5250 2150
 F 0 "U32" H 5150 2200 60  0000 L CNN
 F 1 "HOLE" H 5150 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5250 2150 60  0001 C CNN
 F 3 "" H 5250 2150 60  0001 C CNN
 	1    5250 2150
 	1    0    0    -1  
@@ -328,7 +328,7 @@ U 1 1 5F4B71A2
 P 3850 2450
 F 0 "U41" H 3750 2500 60  0000 L CNN
 F 1 "HOLE" H 3750 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3850 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3850 2450 60  0001 C CNN
 F 3 "" H 3850 2450 60  0001 C CNN
 	1    3850 2450
 	1    0    0    -1  
@@ -339,7 +339,7 @@ U 1 1 5F4B71A8
 P 4150 2450
 F 0 "U42" H 4050 2500 60  0000 L CNN
 F 1 "HOLE" H 4050 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4150 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 4150 2450 60  0001 C CNN
 F 3 "" H 4150 2450 60  0001 C CNN
 	1    4150 2450
 	1    0    0    -1  
@@ -350,7 +350,7 @@ U 1 1 5F4B71AE
 P 4950 2450
 F 0 "U43" H 4850 2500 60  0000 L CNN
 F 1 "HOLE" H 4850 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 4950 2450 60  0001 C CNN
 F 3 "" H 4950 2450 60  0001 C CNN
 	1    4950 2450
 	1    0    0    -1  
@@ -361,7 +361,7 @@ U 1 1 5F4B71B4
 P 5250 2450
 F 0 "U44" H 5150 2500 60  0000 L CNN
 F 1 "HOLE" H 5150 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5250 2450 60  0001 C CNN
 F 3 "" H 5250 2450 60  0001 C CNN
 	1    5250 2450
 	1    0    0    -1  
@@ -372,7 +372,7 @@ U 1 1 5F4B94AF
 P 5550 1550
 F 0 "U9" H 5450 1600 60  0000 L CNN
 F 1 "HOLE" H 5450 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 1550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5550 1550 60  0001 C CNN
 F 3 "" H 5550 1550 60  0001 C CNN
 	1    5550 1550
 	1    0    0    -1  
@@ -383,7 +383,7 @@ U 1 1 5F4B94B5
 P 5850 1550
 F 0 "U10" H 5750 1600 60  0000 L CNN
 F 1 "HOLE" H 5750 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 1550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5850 1550 60  0001 C CNN
 F 3 "" H 5850 1550 60  0001 C CNN
 	1    5850 1550
 	1    0    0    -1  
@@ -394,7 +394,7 @@ U 1 1 5F4B94BB
 P 6150 1550
 F 0 "U11" H 6050 1600 60  0000 L CNN
 F 1 "HOLE" H 6050 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 1550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 6150 1550 60  0001 C CNN
 F 3 "" H 6150 1550 60  0001 C CNN
 	1    6150 1550
 	1    0    0    -1  
@@ -405,7 +405,7 @@ U 1 1 5F4B94C1
 P 6450 1550
 F 0 "U12" H 6350 1600 60  0000 L CNN
 F 1 "HOLE" H 6350 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6450 1550 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 6450 1550 60  0001 C CNN
 F 3 "" H 6450 1550 60  0001 C CNN
 	1    6450 1550
 	1    0    0    -1  
@@ -416,7 +416,7 @@ U 1 1 5F4B94C7
 P 5550 1850
 F 0 "U21" H 5450 1900 60  0000 L CNN
 F 1 "HOLE" H 5450 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 1850 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5550 1850 60  0001 C CNN
 F 3 "" H 5550 1850 60  0001 C CNN
 	1    5550 1850
 	1    0    0    -1  
@@ -427,7 +427,7 @@ U 1 1 5F4B94CD
 P 5850 1850
 F 0 "U22" H 5750 1900 60  0000 L CNN
 F 1 "HOLE" H 5750 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 1850 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5850 1850 60  0001 C CNN
 F 3 "" H 5850 1850 60  0001 C CNN
 	1    5850 1850
 	1    0    0    -1  
@@ -438,7 +438,7 @@ U 1 1 5F4B94D3
 P 6150 1850
 F 0 "U23" H 6050 1900 60  0000 L CNN
 F 1 "HOLE" H 6050 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 1850 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 6150 1850 60  0001 C CNN
 F 3 "" H 6150 1850 60  0001 C CNN
 	1    6150 1850
 	1    0    0    -1  
@@ -449,7 +449,7 @@ U 1 1 5F4B94D9
 P 6450 1850
 F 0 "U24" H 6350 1900 60  0000 L CNN
 F 1 "HOLE" H 6350 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6450 1850 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 6450 1850 60  0001 C CNN
 F 3 "" H 6450 1850 60  0001 C CNN
 	1    6450 1850
 	1    0    0    -1  
@@ -460,7 +460,7 @@ U 1 1 5F4B94DF
 P 5550 2150
 F 0 "U33" H 5450 2200 60  0000 L CNN
 F 1 "HOLE" H 5450 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5550 2150 60  0001 C CNN
 F 3 "" H 5550 2150 60  0001 C CNN
 	1    5550 2150
 	1    0    0    -1  
@@ -471,7 +471,7 @@ U 1 1 5F4B94E5
 P 5850 2150
 F 0 "U34" H 5750 2200 60  0000 L CNN
 F 1 "HOLE" H 5750 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5850 2150 60  0001 C CNN
 F 3 "" H 5850 2150 60  0001 C CNN
 	1    5850 2150
 	1    0    0    -1  
@@ -482,7 +482,7 @@ U 1 1 5F4B94EB
 P 6150 2150
 F 0 "U35" H 6050 2200 60  0000 L CNN
 F 1 "HOLE" H 6050 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 6150 2150 60  0001 C CNN
 F 3 "" H 6150 2150 60  0001 C CNN
 	1    6150 2150
 	1    0    0    -1  
@@ -493,7 +493,7 @@ U 1 1 5F4B94F1
 P 6450 2150
 F 0 "U36" H 6350 2200 60  0000 L CNN
 F 1 "HOLE" H 6350 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6450 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 6450 2150 60  0001 C CNN
 F 3 "" H 6450 2150 60  0001 C CNN
 	1    6450 2150
 	1    0    0    -1  
@@ -504,7 +504,7 @@ U 1 1 5F4B94F7
 P 5550 2450
 F 0 "U45" H 5450 2500 60  0000 L CNN
 F 1 "HOLE" H 5450 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5550 2450 60  0001 C CNN
 F 3 "" H 5550 2450 60  0001 C CNN
 	1    5550 2450
 	1    0    0    -1  
@@ -515,7 +515,7 @@ U 1 1 5F4B94FD
 P 5850 2450
 F 0 "U46" H 5750 2500 60  0000 L CNN
 F 1 "HOLE" H 5750 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5850 2450 60  0001 C CNN
 F 3 "" H 5850 2450 60  0001 C CNN
 	1    5850 2450
 	1    0    0    -1  
@@ -526,7 +526,7 @@ U 1 1 5F4B9503
 P 6150 2450
 F 0 "U47" H 6050 2500 60  0000 L CNN
 F 1 "HOLE" H 6050 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 6150 2450 60  0001 C CNN
 F 3 "" H 6150 2450 60  0001 C CNN
 	1    6150 2450
 	1    0    0    -1  
@@ -537,7 +537,7 @@ U 1 1 5F4B9509
 P 6450 2450
 F 0 "U48" H 6350 2500 60  0000 L CNN
 F 1 "HOLE" H 6350 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6450 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 6450 2450 60  0001 C CNN
 F 3 "" H 6450 2450 60  0001 C CNN
 	1    6450 2450
 	1    0    0    -1  
@@ -545,12 +545,12 @@ $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 60E9D8FE
-P 7100 3300
-F 0 "#PWR0101" H 7100 3050 50  0001 C CNN
-F 1 "GND" H 7105 3127 50  0000 C CNN
-F 2 "" H 7100 3300 50  0001 C CNN
-F 3 "" H 7100 3300 50  0001 C CNN
-	1    7100 3300
+P 7300 3200
+F 0 "#PWR0101" H 7300 2950 50  0001 C CNN
+F 1 "GND" H 7305 3027 50  0000 C CNN
+F 2 "" H 7300 3200 50  0001 C CNN
+F 3 "" H 7300 3200 50  0001 C CNN
+	1    7300 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -641,18 +641,7 @@ F 3 "~" H 3350 4000 50  0001 C CNN
 	1    3350 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L component:DIODE D2
-U 1 1 61135F6B
-P 6900 3300
-F 0 "D2" H 6900 3492 40  0000 C CNN
-F 1 "DIODE" H 6900 3416 40  0000 C CNN
-F 2 "Keeb_footprints:D_SOD-123_modified" H 6900 3300 50  0001 C CNN
-F 3 "" H 6900 3300 50  0001 C CNN
-	1    6900 3300
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6700 3300
+NoConn ~ 6750 3050
 Text Notes 2850 4250 0    50   ~ 0
 Top mount holes
 Wire Notes Line
@@ -669,7 +658,7 @@ U 1 1 61695A7C
 P 2650 1250
 F 0 "U49" H 2550 1300 60  0000 L CNN
 F 1 "HOLE" H 2550 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2650 1250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 2650 1250 60  0001 C CNN
 F 3 "" H 2650 1250 60  0001 C CNN
 	1    2650 1250
 	1    0    0    -1  
@@ -680,7 +669,7 @@ U 1 1 61695A82
 P 2950 1250
 F 0 "U50" H 2850 1300 60  0000 L CNN
 F 1 "HOLE" H 2850 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2950 1250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 2950 1250 60  0001 C CNN
 F 3 "" H 2950 1250 60  0001 C CNN
 	1    2950 1250
 	1    0    0    -1  
@@ -691,7 +680,7 @@ U 1 1 61695A88
 P 3250 1250
 F 0 "U51" H 3150 1300 60  0000 L CNN
 F 1 "HOLE" H 3150 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3250 1250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3250 1250 60  0001 C CNN
 F 3 "" H 3250 1250 60  0001 C CNN
 	1    3250 1250
 	1    0    0    -1  
@@ -702,7 +691,7 @@ U 1 1 61695A8E
 P 3550 1250
 F 0 "U52" H 3450 1300 60  0000 L CNN
 F 1 "HOLE" H 3450 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3550 1250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3550 1250 60  0001 C CNN
 F 3 "" H 3550 1250 60  0001 C CNN
 	1    3550 1250
 	1    0    0    -1  
@@ -713,7 +702,7 @@ U 1 1 61695A94
 P 3850 1250
 F 0 "U53" H 3750 1300 60  0000 L CNN
 F 1 "HOLE" H 3750 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 3850 1250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 3850 1250 60  0001 C CNN
 F 3 "" H 3850 1250 60  0001 C CNN
 	1    3850 1250
 	1    0    0    -1  
@@ -724,7 +713,7 @@ U 1 1 61695A9A
 P 4150 1250
 F 0 "U54" H 4050 1300 60  0000 L CNN
 F 1 "HOLE" H 4050 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4150 1250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 4150 1250 60  0001 C CNN
 F 3 "" H 4150 1250 60  0001 C CNN
 	1    4150 1250
 	1    0    0    -1  
@@ -735,7 +724,7 @@ U 1 1 61695AA0
 P 4950 1250
 F 0 "U55" H 4850 1300 60  0000 L CNN
 F 1 "HOLE" H 4850 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 1250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 4950 1250 60  0001 C CNN
 F 3 "" H 4950 1250 60  0001 C CNN
 	1    4950 1250
 	1    0    0    -1  
@@ -746,7 +735,7 @@ U 1 1 61695AA6
 P 5250 1250
 F 0 "U56" H 5150 1300 60  0000 L CNN
 F 1 "HOLE" H 5150 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 1250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5250 1250 60  0001 C CNN
 F 3 "" H 5250 1250 60  0001 C CNN
 	1    5250 1250
 	1    0    0    -1  
@@ -757,7 +746,7 @@ U 1 1 61695AAC
 P 5550 1250
 F 0 "U57" H 5450 1300 60  0000 L CNN
 F 1 "HOLE" H 5450 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 1250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5550 1250 60  0001 C CNN
 F 3 "" H 5550 1250 60  0001 C CNN
 	1    5550 1250
 	1    0    0    -1  
@@ -768,7 +757,7 @@ U 1 1 61695AB2
 P 5850 1250
 F 0 "U58" H 5750 1300 60  0000 L CNN
 F 1 "HOLE" H 5750 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 1250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 5850 1250 60  0001 C CNN
 F 3 "" H 5850 1250 60  0001 C CNN
 	1    5850 1250
 	1    0    0    -1  
@@ -779,7 +768,7 @@ U 1 1 61695AB8
 P 6150 1250
 F 0 "U59" H 6050 1300 60  0000 L CNN
 F 1 "HOLE" H 6050 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 1250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 6150 1250 60  0001 C CNN
 F 3 "" H 6150 1250 60  0001 C CNN
 	1    6150 1250
 	1    0    0    -1  
@@ -790,7 +779,7 @@ U 1 1 61695ABE
 P 6450 1250
 F 0 "U60" H 6350 1300 60  0000 L CNN
 F 1 "HOLE" H 6350 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6450 1250 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 6450 1250 60  0001 C CNN
 F 3 "" H 6450 1250 60  0001 C CNN
 	1    6450 1250
 	1    0    0    -1  
@@ -801,9 +790,47 @@ U 1 1 6166EBB7
 P 4550 2150
 F 0 "U61" H 4450 2200 60  0000 L CNN
 F 1 "HOLE" H 4450 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4550 2150 60  0001 C CNN
+F 2 "Keeb_footprints:MX100_outline" H 4550 2150 60  0001 C CNN
 F 3 "" H 4550 2150 60  0001 C CNN
 	1    4550 2150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 61677C59
+P 6900 3050
+F 0 "R1" V 6704 3050 50  0000 C CNN
+F 1 "R_Small" V 6795 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 3050 50  0001 C CNN
+F 3 "~" H 6900 3050 50  0001 C CNN
+	1    6900 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 3050 7100 3050
+Wire Wire Line
+	6750 3050 6800 3050
+NoConn ~ 6750 3400
+$Comp
+L Device:R_Small R2
+U 1 1 6167DA6B
+P 6900 3400
+F 0 "R2" V 6704 3400 50  0000 C CNN
+F 1 "R_Small" V 6795 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 3400 50  0001 C CNN
+F 3 "~" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 3400 7100 3400
+Wire Wire Line
+	6750 3400 6800 3400
+Wire Wire Line
+	7100 3050 7100 3200
+Wire Wire Line
+	7300 3200 7100 3200
+Connection ~ 7100 3200
+Wire Wire Line
+	7100 3200 7100 3400
 $EndSCHEMATC
