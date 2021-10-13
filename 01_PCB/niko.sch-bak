@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:niko_ergo-cache
+LIBS:niko-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -1205,7 +1205,7 @@ col4
 Text GLabel 8900 2850 1    50   Input ~ 0
 col5
 $Comp
-L niko_ergo-rescue:AVR-ISP-6_mod-Connector-Dori_Ergo-rescue J2
+L niko-rescue:AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue J2
 U 1 1 5EC10E7A
 P 8100 10650
 F 0 "J2" V 7683 10700 50  0000 C CNN
