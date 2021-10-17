@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue
+# AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue-niko-rescue
 #
-DEF AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue J 0 40 Y Y 1 F N
+DEF AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue-niko-rescue J 0 40 Y Y 1 F N
 F0 "J" 0 400 50 H V L CNN
-F1 "AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue" 0 -300 50 H V L CNN
+F1 "AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue-niko-rescue" 0 -300 50 H V L CNN
 F2 "" -250 50 50 V I C CNN
 F3 "" -1275 -550 50 H I C CNN
 $FPLIST

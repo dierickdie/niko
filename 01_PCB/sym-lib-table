@@ -14,4 +14,5 @@
   (lib (name ai03-locallib)(type Legacy)(uri /Users/rick/Documents/GitHub/libraries/locallib.pretty/schema/ai03-locallib.lib)(options "")(descr ""))
   (lib (name acheronSymbols)(type Legacy)(uri /Users/rick/Documents/GitHub/libraries/AcheronLibrary-master/symbols/acheronSymbols.lib)(options "")(descr ""))
   (lib (name niko-rescue)(type Legacy)(uri ${KIPRJMOD}/niko-rescue.lib)(options "")(descr ""))
+  (lib (name pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/pcb-rescue.lib)(options "")(descr ""))
 )
