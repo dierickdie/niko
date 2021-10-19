@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:niko_top_plate-cache
+LIBS:bottom_plate-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -144,28 +144,6 @@ F 1 "HOLE" H 3450 2100 60  0000 L CNN
 F 2 "Keeb_footprints:MX100_outline" H 3550 2150 60  0001 C CNN
 F 3 "" H 3550 2150 60  0001 C CNN
 	1    3550 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U37
-U 1 1 5F4B4D64
-P 2650 2450
-F 0 "U37" H 2550 2500 60  0000 L CNN
-F 1 "HOLE" H 2550 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_outline" H 2650 2450 60  0001 C CNN
-F 3 "" H 2650 2450 60  0001 C CNN
-	1    2650 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U38
-U 1 1 5F4B4D6A
-P 2950 2450
-F 0 "U38" H 2850 2500 60  0000 L CNN
-F 1 "HOLE" H 2850 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_outline" H 2950 2450 60  0001 C CNN
-F 3 "" H 2950 2450 60  0001 C CNN
-	1    2950 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -521,37 +499,15 @@ F 3 "" H 5850 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lets_split-cache:HOLE U47
-U 1 1 5F4B9503
-P 6150 2450
-F 0 "U47" H 6050 2500 60  0000 L CNN
-F 1 "HOLE" H 6050 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_outline" H 6150 2450 60  0001 C CNN
-F 3 "" H 6150 2450 60  0001 C CNN
-	1    6150 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U48
-U 1 1 5F4B9509
-P 6450 2450
-F 0 "U48" H 6350 2500 60  0000 L CNN
-F 1 "HOLE" H 6350 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_outline" H 6450 2450 60  0001 C CNN
-F 3 "" H 6450 2450 60  0001 C CNN
-	1    6450 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 60E9D8FE
-P 7300 3200
-F 0 "#PWR0101" H 7300 2950 50  0001 C CNN
-F 1 "GND" H 7305 3027 50  0000 C CNN
-F 2 "" H 7300 3200 50  0001 C CNN
-F 3 "" H 7300 3200 50  0001 C CNN
-	1    7300 3200
-	1    0    0    -1  
+P 7000 2900
+F 0 "#PWR0101" H 7000 2650 50  0001 C CNN
+F 1 "GND" H 7000 2750 50  0000 C CNN
+F 2 "" H 7000 2900 50  0001 C CNN
+F 3 "" H 7000 2900 50  0001 C CNN
+	1    7000 2900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
@@ -641,7 +597,7 @@ F 3 "~" H 3350 4000 50  0001 C CNN
 	1    3350 4000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6750 3050
+NoConn ~ 6800 2900
 Text Notes 2850 4250 0    50   ~ 0
 Top mount holes
 Wire Notes Line
@@ -797,40 +753,24 @@ F 3 "" H 4550 2150 60  0001 C CNN
 $EndComp
 $Comp
 L Device:R_Small R1
-U 1 1 61677C59
-P 6900 3050
-F 0 "R1" V 6704 3050 50  0000 C CNN
-F 1 "R_Small" V 6795 3050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 3050 50  0001 C CNN
-F 3 "~" H 6900 3050 50  0001 C CNN
-	1    6900 3050
+U 1 1 616F4FBA
+P 6900 2900
+F 0 "R1" V 6704 2900 50  0000 C CNN
+F 1 "R_Small" V 6795 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 2900 50  0001 C CNN
+F 3 "~" H 6900 2900 50  0001 C CNN
+	1    6900 2900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7000 3050 7100 3050
-Wire Wire Line
-	6750 3050 6800 3050
-NoConn ~ 6750 3400
 $Comp
-L Device:R_Small R2
-U 1 1 6167DA6B
-P 6900 3400
-F 0 "R2" V 6704 3400 50  0000 C CNN
-F 1 "R_Small" V 6795 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 3400 50  0001 C CNN
-F 3 "~" H 6900 3400 50  0001 C CNN
-	1    6900 3400
-	0    1    1    0   
+L Mechanical:MountingHole H9
+U 1 1 616FC6E2
+P 4350 4000
+F 0 "H9" H 4450 4046 50  0000 L CNN
+F 1 "MountingHole" H 4450 3955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 4350 4000 50  0001 C CNN
+F 3 "~" H 4350 4000 50  0001 C CNN
+	1    4350 4000
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 3400 7100 3400
-Wire Wire Line
-	6750 3400 6800 3400
-Wire Wire Line
-	7100 3050 7100 3200
-Wire Wire Line
-	7300 3200 7100 3200
-Connection ~ 7100 3200
-Wire Wire Line
-	7100 3200 7100 3400
 $EndSCHEMATC

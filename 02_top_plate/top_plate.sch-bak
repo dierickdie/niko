@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:niko_top_plate-cache
+LIBS:top_plate-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -147,28 +147,6 @@ F 3 "" H 3550 2150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lets_split-cache:HOLE U37
-U 1 1 5F4B4D64
-P 2650 2450
-F 0 "U37" H 2550 2500 60  0000 L CNN
-F 1 "HOLE" H 2550 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2650 2450 60  0001 C CNN
-F 3 "" H 2650 2450 60  0001 C CNN
-	1    2650 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U38
-U 1 1 5F4B4D6A
-P 2950 2450
-F 0 "U38" H 2850 2500 60  0000 L CNN
-F 1 "HOLE" H 2850 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2950 2450 60  0001 C CNN
-F 3 "" H 2950 2450 60  0001 C CNN
-	1    2950 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L lets_split-cache:HOLE U39
 U 1 1 5F4B4D70
 P 3250 2450
@@ -215,23 +193,23 @@ $EndComp
 $Comp
 L lets_split-cache:HOLE U7
 U 1 1 5F4B7166
-P 4650 1550
-F 0 "U7" H 4550 1600 60  0000 L CNN
-F 1 "HOLE" H 4550 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4650 1550 60  0001 C CNN
-F 3 "" H 4650 1550 60  0001 C CNN
-	1    4650 1550
+P 4950 1550
+F 0 "U7" H 4850 1600 60  0000 L CNN
+F 1 "HOLE" H 4850 1500 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 1550 60  0001 C CNN
+F 3 "" H 4950 1550 60  0001 C CNN
+	1    4950 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L lets_split-cache:HOLE U8
 U 1 1 5F4B716C
-P 4950 1550
-F 0 "U8" H 4850 1600 60  0000 L CNN
-F 1 "HOLE" H 4850 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 1550 60  0001 C CNN
-F 3 "" H 4950 1550 60  0001 C CNN
-	1    4950 1550
+P 5250 1550
+F 0 "U8" H 5150 1600 60  0000 L CNN
+F 1 "HOLE" H 5150 1500 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 1550 60  0001 C CNN
+F 3 "" H 5250 1550 60  0001 C CNN
+	1    5250 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -259,23 +237,23 @@ $EndComp
 $Comp
 L lets_split-cache:HOLE U19
 U 1 1 5F4B717E
-P 4650 1850
-F 0 "U19" H 4550 1900 60  0000 L CNN
-F 1 "HOLE" H 4550 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4650 1850 60  0001 C CNN
-F 3 "" H 4650 1850 60  0001 C CNN
-	1    4650 1850
+P 4950 1850
+F 0 "U19" H 4850 1900 60  0000 L CNN
+F 1 "HOLE" H 4850 1800 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 1850 60  0001 C CNN
+F 3 "" H 4950 1850 60  0001 C CNN
+	1    4950 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L lets_split-cache:HOLE U20
 U 1 1 5F4B7184
-P 4950 1850
-F 0 "U20" H 4850 1900 60  0000 L CNN
-F 1 "HOLE" H 4850 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 1850 60  0001 C CNN
-F 3 "" H 4950 1850 60  0001 C CNN
-	1    4950 1850
+P 5250 1850
+F 0 "U20" H 5150 1900 60  0000 L CNN
+F 1 "HOLE" H 5150 1800 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 1850 60  0001 C CNN
+F 3 "" H 5250 1850 60  0001 C CNN
+	1    5250 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -303,23 +281,23 @@ $EndComp
 $Comp
 L lets_split-cache:HOLE U31
 U 1 1 5F4B7196
-P 4650 2150
-F 0 "U31" H 4550 2200 60  0000 L CNN
-F 1 "HOLE" H 4550 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4650 2150 60  0001 C CNN
-F 3 "" H 4650 2150 60  0001 C CNN
-	1    4650 2150
+P 4950 2150
+F 0 "U31" H 4850 2200 60  0000 L CNN
+F 1 "HOLE" H 4850 2100 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 2150 60  0001 C CNN
+F 3 "" H 4950 2150 60  0001 C CNN
+	1    4950 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L lets_split-cache:HOLE U32
 U 1 1 5F4B719C
-P 4950 2150
-F 0 "U32" H 4850 2200 60  0000 L CNN
-F 1 "HOLE" H 4850 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 2150 60  0001 C CNN
-F 3 "" H 4950 2150 60  0001 C CNN
-	1    4950 2150
+P 5250 2150
+F 0 "U32" H 5150 2200 60  0000 L CNN
+F 1 "HOLE" H 5150 2100 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 2150 60  0001 C CNN
+F 3 "" H 5250 2150 60  0001 C CNN
+	1    5250 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -339,7 +317,7 @@ U 1 1 5F4B71A8
 P 4150 2450
 F 0 "U42" H 4050 2500 60  0000 L CNN
 F 1 "HOLE" H 4050 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4150 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX_125_cutout_plated" H 4150 2450 60  0001 C CNN
 F 3 "" H 4150 2450 60  0001 C CNN
 	1    4150 2450
 	1    0    0    -1  
@@ -347,162 +325,19 @@ $EndComp
 $Comp
 L lets_split-cache:HOLE U43
 U 1 1 5F4B71AE
-P 4650 2450
-F 0 "U43" H 4550 2500 60  0000 L CNN
-F 1 "HOLE" H 4550 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4650 2450 60  0001 C CNN
-F 3 "" H 4650 2450 60  0001 C CNN
-	1    4650 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U44
-U 1 1 5F4B71B4
 P 4950 2450
-F 0 "U44" H 4850 2500 60  0000 L CNN
+F 0 "U43" H 4850 2500 60  0000 L CNN
 F 1 "HOLE" H 4850 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX_125_cutout_plated" H 4950 2450 60  0001 C CNN
 F 3 "" H 4950 2450 60  0001 C CNN
 	1    4950 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L lets_split-cache:HOLE U9
-U 1 1 5F4B94AF
-P 5250 1550
-F 0 "U9" H 5150 1600 60  0000 L CNN
-F 1 "HOLE" H 5150 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 1550 60  0001 C CNN
-F 3 "" H 5250 1550 60  0001 C CNN
-	1    5250 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U10
-U 1 1 5F4B94B5
-P 5550 1550
-F 0 "U10" H 5450 1600 60  0000 L CNN
-F 1 "HOLE" H 5450 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 1550 60  0001 C CNN
-F 3 "" H 5550 1550 60  0001 C CNN
-	1    5550 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U11
-U 1 1 5F4B94BB
-P 5850 1550
-F 0 "U11" H 5750 1600 60  0000 L CNN
-F 1 "HOLE" H 5750 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 1550 60  0001 C CNN
-F 3 "" H 5850 1550 60  0001 C CNN
-	1    5850 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U12
-U 1 1 5F4B94C1
-P 6150 1550
-F 0 "U12" H 6050 1600 60  0000 L CNN
-F 1 "HOLE" H 6050 1500 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 1550 60  0001 C CNN
-F 3 "" H 6150 1550 60  0001 C CNN
-	1    6150 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U21
-U 1 1 5F4B94C7
-P 5250 1850
-F 0 "U21" H 5150 1900 60  0000 L CNN
-F 1 "HOLE" H 5150 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 1850 60  0001 C CNN
-F 3 "" H 5250 1850 60  0001 C CNN
-	1    5250 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U22
-U 1 1 5F4B94CD
-P 5550 1850
-F 0 "U22" H 5450 1900 60  0000 L CNN
-F 1 "HOLE" H 5450 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 1850 60  0001 C CNN
-F 3 "" H 5550 1850 60  0001 C CNN
-	1    5550 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U23
-U 1 1 5F4B94D3
-P 5850 1850
-F 0 "U23" H 5750 1900 60  0000 L CNN
-F 1 "HOLE" H 5750 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 1850 60  0001 C CNN
-F 3 "" H 5850 1850 60  0001 C CNN
-	1    5850 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U24
-U 1 1 5F4B94D9
-P 6150 1850
-F 0 "U24" H 6050 1900 60  0000 L CNN
-F 1 "HOLE" H 6050 1800 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 1850 60  0001 C CNN
-F 3 "" H 6150 1850 60  0001 C CNN
-	1    6150 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U33
-U 1 1 5F4B94DF
-P 5250 2150
-F 0 "U33" H 5150 2200 60  0000 L CNN
-F 1 "HOLE" H 5150 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 2150 60  0001 C CNN
-F 3 "" H 5250 2150 60  0001 C CNN
-	1    5250 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U34
-U 1 1 5F4B94E5
-P 5550 2150
-F 0 "U34" H 5450 2200 60  0000 L CNN
-F 1 "HOLE" H 5450 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 2150 60  0001 C CNN
-F 3 "" H 5550 2150 60  0001 C CNN
-	1    5550 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U35
-U 1 1 5F4B94EB
-P 5850 2150
-F 0 "U35" H 5750 2200 60  0000 L CNN
-F 1 "HOLE" H 5750 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 2150 60  0001 C CNN
-F 3 "" H 5850 2150 60  0001 C CNN
-	1    5850 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U36
-U 1 1 5F4B94F1
-P 6150 2150
-F 0 "U36" H 6050 2200 60  0000 L CNN
-F 1 "HOLE" H 6050 2100 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 2150 60  0001 C CNN
-F 3 "" H 6150 2150 60  0001 C CNN
-	1    6150 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U45
-U 1 1 5F4B94F7
+L lets_split-cache:HOLE U44
+U 1 1 5F4B71B4
 P 5250 2450
-F 0 "U45" H 5150 2500 60  0000 L CNN
+F 0 "U44" H 5150 2500 60  0000 L CNN
 F 1 "HOLE" H 5150 2400 60  0000 L CNN
 F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 2450 60  0001 C CNN
 F 3 "" H 5250 2450 60  0001 C CNN
@@ -510,10 +345,142 @@ F 3 "" H 5250 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lets_split-cache:HOLE U46
-U 1 1 5F4B94FD
+L lets_split-cache:HOLE U9
+U 1 1 5F4B94AF
+P 5550 1550
+F 0 "U9" H 5450 1600 60  0000 L CNN
+F 1 "HOLE" H 5450 1500 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 1550 60  0001 C CNN
+F 3 "" H 5550 1550 60  0001 C CNN
+	1    5550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U10
+U 1 1 5F4B94B5
+P 5850 1550
+F 0 "U10" H 5750 1600 60  0000 L CNN
+F 1 "HOLE" H 5750 1500 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 1550 60  0001 C CNN
+F 3 "" H 5850 1550 60  0001 C CNN
+	1    5850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U11
+U 1 1 5F4B94BB
+P 6150 1550
+F 0 "U11" H 6050 1600 60  0000 L CNN
+F 1 "HOLE" H 6050 1500 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 1550 60  0001 C CNN
+F 3 "" H 6150 1550 60  0001 C CNN
+	1    6150 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U12
+U 1 1 5F4B94C1
+P 6450 1550
+F 0 "U12" H 6350 1600 60  0000 L CNN
+F 1 "HOLE" H 6350 1500 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 6450 1550 60  0001 C CNN
+F 3 "" H 6450 1550 60  0001 C CNN
+	1    6450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U21
+U 1 1 5F4B94C7
+P 5550 1850
+F 0 "U21" H 5450 1900 60  0000 L CNN
+F 1 "HOLE" H 5450 1800 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 1850 60  0001 C CNN
+F 3 "" H 5550 1850 60  0001 C CNN
+	1    5550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U22
+U 1 1 5F4B94CD
+P 5850 1850
+F 0 "U22" H 5750 1900 60  0000 L CNN
+F 1 "HOLE" H 5750 1800 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 1850 60  0001 C CNN
+F 3 "" H 5850 1850 60  0001 C CNN
+	1    5850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U23
+U 1 1 5F4B94D3
+P 6150 1850
+F 0 "U23" H 6050 1900 60  0000 L CNN
+F 1 "HOLE" H 6050 1800 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 1850 60  0001 C CNN
+F 3 "" H 6150 1850 60  0001 C CNN
+	1    6150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U24
+U 1 1 5F4B94D9
+P 6450 1850
+F 0 "U24" H 6350 1900 60  0000 L CNN
+F 1 "HOLE" H 6350 1800 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 6450 1850 60  0001 C CNN
+F 3 "" H 6450 1850 60  0001 C CNN
+	1    6450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U33
+U 1 1 5F4B94DF
+P 5550 2150
+F 0 "U33" H 5450 2200 60  0000 L CNN
+F 1 "HOLE" H 5450 2100 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 2150 60  0001 C CNN
+F 3 "" H 5550 2150 60  0001 C CNN
+	1    5550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U34
+U 1 1 5F4B94E5
+P 5850 2150
+F 0 "U34" H 5750 2200 60  0000 L CNN
+F 1 "HOLE" H 5750 2100 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 2150 60  0001 C CNN
+F 3 "" H 5850 2150 60  0001 C CNN
+	1    5850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U35
+U 1 1 5F4B94EB
+P 6150 2150
+F 0 "U35" H 6050 2200 60  0000 L CNN
+F 1 "HOLE" H 6050 2100 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 2150 60  0001 C CNN
+F 3 "" H 6150 2150 60  0001 C CNN
+	1    6150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U36
+U 1 1 5F4B94F1
+P 6450 2150
+F 0 "U36" H 6350 2200 60  0000 L CNN
+F 1 "HOLE" H 6350 2100 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 6450 2150 60  0001 C CNN
+F 3 "" H 6450 2150 60  0001 C CNN
+	1    6450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U45
+U 1 1 5F4B94F7
 P 5550 2450
-F 0 "U46" H 5450 2500 60  0000 L CNN
+F 0 "U45" H 5450 2500 60  0000 L CNN
 F 1 "HOLE" H 5450 2400 60  0000 L CNN
 F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 2450 60  0001 C CNN
 F 3 "" H 5550 2450 60  0001 C CNN
@@ -521,25 +488,14 @@ F 3 "" H 5550 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lets_split-cache:HOLE U47
-U 1 1 5F4B9503
+L lets_split-cache:HOLE U46
+U 1 1 5F4B94FD
 P 5850 2450
-F 0 "U47" H 5750 2500 60  0000 L CNN
+F 0 "U46" H 5750 2500 60  0000 L CNN
 F 1 "HOLE" H 5750 2400 60  0000 L CNN
 F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 2450 60  0001 C CNN
 F 3 "" H 5850 2450 60  0001 C CNN
 	1    5850 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U48
-U 1 1 5F4B9509
-P 6150 2450
-F 0 "U48" H 6050 2500 60  0000 L CNN
-F 1 "HOLE" H 6050 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 2450 60  0001 C CNN
-F 3 "" H 6150 2450 60  0001 C CNN
-	1    6150 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -732,19 +688,8 @@ $EndComp
 $Comp
 L lets_split-cache:HOLE U55
 U 1 1 61695AA0
-P 4650 1250
-F 0 "U55" H 4550 1300 60  0000 L CNN
-F 1 "HOLE" H 4550 1200 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4650 1250 60  0001 C CNN
-F 3 "" H 4650 1250 60  0001 C CNN
-	1    4650 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U56
-U 1 1 61695AA6
 P 4950 1250
-F 0 "U56" H 4850 1300 60  0000 L CNN
+F 0 "U55" H 4850 1300 60  0000 L CNN
 F 1 "HOLE" H 4850 1200 60  0000 L CNN
 F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 1250 60  0001 C CNN
 F 3 "" H 4950 1250 60  0001 C CNN
@@ -752,10 +697,10 @@ F 3 "" H 4950 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lets_split-cache:HOLE U57
-U 1 1 61695AAC
+L lets_split-cache:HOLE U56
+U 1 1 61695AA6
 P 5250 1250
-F 0 "U57" H 5150 1300 60  0000 L CNN
+F 0 "U56" H 5150 1300 60  0000 L CNN
 F 1 "HOLE" H 5150 1200 60  0000 L CNN
 F 2 "Keeb_footprints:MX100_cutout_plated" H 5250 1250 60  0001 C CNN
 F 3 "" H 5250 1250 60  0001 C CNN
@@ -763,10 +708,10 @@ F 3 "" H 5250 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lets_split-cache:HOLE U58
-U 1 1 61695AB2
+L lets_split-cache:HOLE U57
+U 1 1 61695AAC
 P 5550 1250
-F 0 "U58" H 5450 1300 60  0000 L CNN
+F 0 "U57" H 5450 1300 60  0000 L CNN
 F 1 "HOLE" H 5450 1200 60  0000 L CNN
 F 2 "Keeb_footprints:MX100_cutout_plated" H 5550 1250 60  0001 C CNN
 F 3 "" H 5550 1250 60  0001 C CNN
@@ -774,10 +719,10 @@ F 3 "" H 5550 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lets_split-cache:HOLE U59
-U 1 1 61695AB8
+L lets_split-cache:HOLE U58
+U 1 1 61695AB2
 P 5850 1250
-F 0 "U59" H 5750 1300 60  0000 L CNN
+F 0 "U58" H 5750 1300 60  0000 L CNN
 F 1 "HOLE" H 5750 1200 60  0000 L CNN
 F 2 "Keeb_footprints:MX100_cutout_plated" H 5850 1250 60  0001 C CNN
 F 3 "" H 5850 1250 60  0001 C CNN
@@ -785,14 +730,36 @@ F 3 "" H 5850 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lets_split-cache:HOLE U60
-U 1 1 61695ABE
+L lets_split-cache:HOLE U59
+U 1 1 61695AB8
 P 6150 1250
-F 0 "U60" H 6050 1300 60  0000 L CNN
+F 0 "U59" H 6050 1300 60  0000 L CNN
 F 1 "HOLE" H 6050 1200 60  0000 L CNN
 F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 1250 60  0001 C CNN
 F 3 "" H 6150 1250 60  0001 C CNN
 	1    6150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U60
+U 1 1 61695ABE
+P 6450 1250
+F 0 "U60" H 6350 1300 60  0000 L CNN
+F 1 "HOLE" H 6350 1200 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 6450 1250 60  0001 C CNN
+F 3 "" H 6450 1250 60  0001 C CNN
+	1    6450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U61
+U 1 1 6166EBB7
+P 4550 2150
+F 0 "U61" H 4450 2200 60  0000 L CNN
+F 1 "HOLE" H 4450 2100 60  0000 L CNN
+F 2 "Keeb_footprints:MX100_cutout_plated" H 4550 2150 60  0001 C CNN
+F 3 "" H 4550 2150 60  0001 C CNN
+	1    4550 2150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

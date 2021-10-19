@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:niko_top_plate-cache
+LIBS:top_plate-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -144,28 +144,6 @@ F 1 "HOLE" H 3450 2100 60  0000 L CNN
 F 2 "Keeb_footprints:MX100_cutout_plated" H 3550 2150 60  0001 C CNN
 F 3 "" H 3550 2150 60  0001 C CNN
 	1    3550 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U37
-U 1 1 5F4B4D64
-P 2650 2450
-F 0 "U37" H 2550 2500 60  0000 L CNN
-F 1 "HOLE" H 2550 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2650 2450 60  0001 C CNN
-F 3 "" H 2650 2450 60  0001 C CNN
-	1    2650 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U38
-U 1 1 5F4B4D6A
-P 2950 2450
-F 0 "U38" H 2850 2500 60  0000 L CNN
-F 1 "HOLE" H 2850 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 2950 2450 60  0001 C CNN
-F 3 "" H 2950 2450 60  0001 C CNN
-	1    2950 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -339,7 +317,7 @@ U 1 1 5F4B71A8
 P 4150 2450
 F 0 "U42" H 4050 2500 60  0000 L CNN
 F 1 "HOLE" H 4050 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4150 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX_150_cutout_plated" H 4150 2450 60  0001 C CNN
 F 3 "" H 4150 2450 60  0001 C CNN
 	1    4150 2450
 	1    0    0    -1  
@@ -350,7 +328,7 @@ U 1 1 5F4B71AE
 P 4950 2450
 F 0 "U43" H 4850 2500 60  0000 L CNN
 F 1 "HOLE" H 4850 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 4950 2450 60  0001 C CNN
+F 2 "Keeb_footprints:MX_150_cutout_plated" H 4950 2450 60  0001 C CNN
 F 3 "" H 4950 2450 60  0001 C CNN
 	1    4950 2450
 	1    0    0    -1  
@@ -521,37 +499,15 @@ F 3 "" H 5850 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lets_split-cache:HOLE U47
-U 1 1 5F4B9503
-P 6150 2450
-F 0 "U47" H 6050 2500 60  0000 L CNN
-F 1 "HOLE" H 6050 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6150 2450 60  0001 C CNN
-F 3 "" H 6150 2450 60  0001 C CNN
-	1    6150 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L lets_split-cache:HOLE U48
-U 1 1 5F4B9509
-P 6450 2450
-F 0 "U48" H 6350 2500 60  0000 L CNN
-F 1 "HOLE" H 6350 2400 60  0000 L CNN
-F 2 "Keeb_footprints:MX100_cutout_plated" H 6450 2450 60  0001 C CNN
-F 3 "" H 6450 2450 60  0001 C CNN
-	1    6450 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 60E9D8FE
-P 7100 3300
-F 0 "#PWR0101" H 7100 3050 50  0001 C CNN
-F 1 "GND" H 7105 3127 50  0000 C CNN
-F 2 "" H 7100 3300 50  0001 C CNN
-F 3 "" H 7100 3300 50  0001 C CNN
-	1    7100 3300
-	1    0    0    -1  
+P 7000 2900
+F 0 "#PWR0101" H 7000 2650 50  0001 C CNN
+F 1 "GND" H 7000 2750 50  0000 C CNN
+F 2 "" H 7000 2900 50  0001 C CNN
+F 3 "" H 7000 2900 50  0001 C CNN
+	1    7000 2900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
@@ -641,18 +597,7 @@ F 3 "~" H 3350 4000 50  0001 C CNN
 	1    3350 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L component:DIODE D2
-U 1 1 61135F6B
-P 6900 3300
-F 0 "D2" H 6900 3492 40  0000 C CNN
-F 1 "DIODE" H 6900 3416 40  0000 C CNN
-F 2 "Keeb_footprints:D_SOD-123_modified" H 6900 3300 50  0001 C CNN
-F 3 "" H 6900 3300 50  0001 C CNN
-	1    6900 3300
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6700 3300
+NoConn ~ 6800 2900
 Text Notes 2850 4250 0    50   ~ 0
 Top mount holes
 Wire Notes Line
@@ -805,5 +750,16 @@ F 2 "Keeb_footprints:MX100_cutout_plated" H 4550 2150 60  0001 C CNN
 F 3 "" H 4550 2150 60  0001 C CNN
 	1    4550 2150
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 616F4FBA
+P 6900 2900
+F 0 "R1" V 6704 2900 50  0000 C CNN
+F 1 "R_Small" V 6795 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 2900 50  0001 C CNN
+F 3 "~" H 6900 2900 50  0001 C CNN
+	1    6900 2900
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
