@@ -2868,19 +2868,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 6500 8600 6500
 Wire Wire Line
-	8200 5350 9100 5350
-Wire Wire Line
-	9100 5350 9100 6200
-Wire Wire Line
-	9100 6200 8400 6200
-Connection ~ 9100 5350
-Wire Wire Line
-	9100 5350 9700 5350
-Wire Wire Line
-	8600 6800 8400 6800
-Wire Wire Line
-	8400 6200 8400 6800
-Wire Wire Line
 	8600 6800 8600 6700
 Text GLabel 8000 11050 3    50   Output ~ 0
 col0
@@ -2902,11 +2889,33 @@ Text GLabel 7450 9600 0    50   Output ~ 0
 col11
 Text GLabel 9600 8700 2    50   Output ~ 0
 col12
-Text GLabel 9000 6700 0    50   Output ~ 0
-col12
 Text GLabel 9600 9400 2    50   Output ~ 0
 row4
 Wire Wire Line
-	5650 6050 3800 6050
+	5650 6050 5250 6050
 Connection ~ 5650 6050
+Wire Wire Line
+	5250 6800 5250 6050
+Connection ~ 5250 6050
+Wire Wire Line
+	5250 6050 3800 6050
+Wire Wire Line
+	5250 6800 8600 6800
+Wire Wire Line
+	8200 5350 9700 5350
+Wire Wire Line
+	5500 5000 5500 6900
+Wire Wire Line
+	5500 6900 8950 6900
+Wire Wire Line
+	8950 6900 8950 6700
+Wire Wire Line
+	8950 6700 9000 6700
+Connection ~ 5500 5000
+NoConn ~ 9600 7700
+NoConn ~ 9600 8300
+NoConn ~ 9600 9100
+NoConn ~ 7450 8600
+NoConn ~ 7450 8200
+NoConn ~ 7450 7500
 $EndSCHEMATC

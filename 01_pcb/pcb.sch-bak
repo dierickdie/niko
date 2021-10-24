@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:niko-cache
+LIBS:pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -967,20 +967,12 @@ Wire Wire Line
 	5650 5300 5650 5350
 Wire Wire Line
 	4800 5300 4800 5350
-Connection ~ 4650 5000
-Connection ~ 5500 5000
 Connection ~ 6350 5000
 Connection ~ 7200 5000
 Connection ~ 8050 5000
 Connection ~ 8900 5000
 Wire Wire Line
-	4800 6050 5650 6050
-Connection ~ 4800 6050
-Wire Wire Line
-	4800 6000 4800 6050
-Wire Wire Line
 	5650 6050 6500 6050
-Connection ~ 5650 6050
 Wire Wire Line
 	5650 6000 5650 6050
 Wire Wire Line
@@ -996,10 +988,6 @@ Wire Wire Line
 Wire Wire Line
 	8200 6000 8200 6050
 Wire Wire Line
-	3950 6050 4800 6050
-Wire Wire Line
-	3950 6000 3950 6050
-Wire Wire Line
 	8900 5000 8900 5700
 Wire Wire Line
 	8050 5000 8050 5700
@@ -1007,10 +995,6 @@ Wire Wire Line
 	7200 5000 7200 5700
 Wire Wire Line
 	6350 5000 6350 5700
-Wire Wire Line
-	5500 5000 5500 5700
-Wire Wire Line
-	4650 5000 4650 5700
 Wire Wire Line
 	8200 5700 8200 5800
 Wire Wire Line
@@ -1124,62 +1108,6 @@ F 3 "" H 6000 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 5700 4800 5800
-Wire Wire Line
-	4850 5700 4800 5700
-$Comp
-L keyboard_parts:D D38
-U 1 1 5DBF7BD0
-P 4800 5950
-F 0 "D38" H 4672 5900 60  0000 R CNN
-F 1 "D" V 4950 5900 60  0001 C CNN
-F 2 "Keeb_footprints:D_SOD-123_modified" H 4800 5950 60  0001 C CNN
-F 3 "" H 4800 5950 60  0000 C CNN
-	1    4800 5950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5500 5700 5450 5700
-$Comp
-L keyboard_parts:KEYSW K38
-U 1 1 5DBF7BD7
-P 5150 5700
-F 0 "K38" H 5150 5700 60  0000 C CNN
-F 1 "KEYSW" H 5150 5600 60  0001 C CNN
-F 2 "Keeb_footprints:MX100" H 5150 5700 60  0001 C CNN
-F 3 "" H 5150 5700 60  0000 C CNN
-	1    5150 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 5700 3950 5800
-Wire Wire Line
-	4000 5700 3950 5700
-$Comp
-L keyboard_parts:D D37
-U 1 1 5DBF7BDF
-P 3950 5950
-F 0 "D37" H 3822 5900 60  0000 R CNN
-F 1 "D" V 4100 5900 60  0001 C CNN
-F 2 "Keeb_footprints:D_SOD-123_modified" H 3950 5950 60  0001 C CNN
-F 3 "" H 3950 5950 60  0000 C CNN
-	1    3950 5950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4650 5700 4600 5700
-$Comp
-L keyboard_parts:KEYSW K37
-U 1 1 5DBF7BE6
-P 4300 5700
-F 0 "K37" H 4300 5700 60  0000 C CNN
-F 1 "KEYSW" H 4300 5600 60  0001 C CNN
-F 2 "Keeb_footprints:MX100" H 4300 5700 60  0001 C CNN
-F 3 "" H 4300 5700 60  0000 C CNN
-	1    4300 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4650 4300 4650 5000
 Wire Wire Line
 	5500 4300 5500 5000
@@ -1205,7 +1133,7 @@ col4
 Text GLabel 8900 2850 1    50   Input ~ 0
 col5
 $Comp
-L niko-rescue:AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue J2
+L pcb-rescue:AVR-ISP-6_mod-Connector-Dori_Ergo-rescue-niko_ergo-rescue-niko-rescue J2
 U 1 1 5EC10E7A
 P 8100 10650
 F 0 "J2" V 7683 10700 50  0000 C CNN
@@ -1420,60 +1348,6 @@ Wire Wire Line
 	12300 5700 12250 5700
 Wire Wire Line
 	12250 5700 12250 5800
-$Comp
-L keyboard_parts:KEYSW K47
-U 1 1 5DBF7B50
-P 13450 5700
-F 0 "K47" H 13450 5700 60  0000 C CNN
-F 1 "KEYSW" H 13450 5600 60  0001 C CNN
-F 2 "Keeb_footprints:MX100" H 13450 5700 60  0001 C CNN
-F 3 "" H 13450 5700 60  0000 C CNN
-	1    13450 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13800 5700 13750 5700
-$Comp
-L keyboard_parts:D D47
-U 1 1 5DBF7B49
-P 13100 5950
-F 0 "D47" H 12972 5900 60  0000 R CNN
-F 1 "D" V 13250 5900 60  0001 C CNN
-F 2 "Keeb_footprints:D_SOD-123_modified" H 13100 5950 60  0001 C CNN
-F 3 "" H 13100 5950 60  0000 C CNN
-	1    13100 5950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	13150 5700 13100 5700
-Wire Wire Line
-	13100 5700 13100 5800
-$Comp
-L keyboard_parts:KEYSW K48
-U 1 1 5DBF7B41
-P 14300 5700
-F 0 "K48" H 14300 5700 60  0000 C CNN
-F 1 "KEYSW" H 14300 5600 60  0001 C CNN
-F 2 "Keeb_footprints:MX100" H 14300 5700 60  0001 C CNN
-F 3 "" H 14300 5700 60  0000 C CNN
-	1    14300 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:D D48
-U 1 1 5DBF7B3A
-P 13950 5950
-F 0 "D48" H 13822 5900 60  0000 R CNN
-F 1 "D" V 14100 5900 60  0001 C CNN
-F 2 "Keeb_footprints:D_SOD-123_modified" H 13950 5950 60  0001 C CNN
-F 3 "" H 13950 5950 60  0000 C CNN
-	1    13950 5950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14000 5700 13950 5700
-Wire Wire Line
-	13950 5700 13950 5800
 Wire Wire Line
 	10400 5000 10400 5700
 Wire Wire Line
@@ -1483,19 +1357,7 @@ Wire Wire Line
 Wire Wire Line
 	12950 5000 12950 5700
 Wire Wire Line
-	13800 5000 13800 5700
-Wire Wire Line
-	13950 6050 13950 6000
-Wire Wire Line
-	13100 6000 13100 6050
-Connection ~ 13100 6050
-Wire Wire Line
-	13100 6050 13950 6050
-Wire Wire Line
 	12250 6000 12250 6050
-Connection ~ 12250 6050
-Wire Wire Line
-	12250 6050 13100 6050
 Wire Wire Line
 	11400 6000 11400 6050
 Connection ~ 11400 6050
@@ -1510,7 +1372,6 @@ Wire Wire Line
 	9700 6000 9700 6050
 Wire Wire Line
 	9700 6050 10550 6050
-Connection ~ 13800 5000
 Connection ~ 12950 5000
 Connection ~ 12100 5000
 Connection ~ 11250 5000
@@ -2367,11 +2228,6 @@ Wire Wire Line
 	14650 4300 14600 4300
 Wire Wire Line
 	14600 5000 14650 5000
-Connection ~ 14650 5000
-Wire Wire Line
-	14650 5000 14650 5700
-Wire Wire Line
-	14650 5700 14600 5700
 Wire Wire Line
 	14650 3600 14650 4300
 Wire Wire Line
@@ -2848,9 +2704,6 @@ Connection ~ 3950 5350
 Text GLabel 3800 6050 0    50   Input ~ 0
 row4
 Wire Wire Line
-	3950 6050 3800 6050
-Connection ~ 3950 6050
-Wire Wire Line
 	3950 4650 3800 4650
 Connection ~ 3950 4650
 Wire Wire Line
@@ -3015,19 +2868,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 6500 8600 6500
 Wire Wire Line
-	8200 5350 9100 5350
-Wire Wire Line
-	9100 5350 9100 6200
-Wire Wire Line
-	9100 6200 8400 6200
-Connection ~ 9100 5350
-Wire Wire Line
-	9100 5350 9700 5350
-Wire Wire Line
-	8600 6800 8400 6800
-Wire Wire Line
-	8400 6200 8400 6800
-Wire Wire Line
 	8600 6800 8600 6700
 Text GLabel 8000 11050 3    50   Output ~ 0
 col0
@@ -3049,8 +2889,27 @@ Text GLabel 7450 9600 0    50   Output ~ 0
 col11
 Text GLabel 9600 8700 2    50   Output ~ 0
 col12
-Text GLabel 9000 6700 0    50   Output ~ 0
-col12
 Text GLabel 9600 9400 2    50   Output ~ 0
 row4
+Wire Wire Line
+	5650 6050 5250 6050
+Connection ~ 5650 6050
+Wire Wire Line
+	5250 6800 5250 6050
+Connection ~ 5250 6050
+Wire Wire Line
+	5250 6050 3800 6050
+Wire Wire Line
+	5250 6800 8600 6800
+Wire Wire Line
+	8200 5350 9700 5350
+Wire Wire Line
+	5500 5000 5500 6900
+Wire Wire Line
+	5500 6900 8950 6900
+Wire Wire Line
+	8950 6900 8950 6700
+Wire Wire Line
+	8950 6700 9000 6700
+Connection ~ 5500 5000
 $EndSCHEMATC
