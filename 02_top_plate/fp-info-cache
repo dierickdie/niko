@@ -1,4 +1,4 @@
-16993968178681250
+17010320914616250
 Artwork
 Longboard
 
@@ -48909,6 +48909,20 @@ ATMEGA32U4-AU
 44
 44
 Keeb_footprints
+ArduinoProMicro
+
+
+0
+24
+24
+Keeb_footprints
+ArduinoProMicro_Type_C
+
+
+0
+24
+24
+Keeb_footprints
 D_SOD-123_modified
 SOD-123
 SOD-123
@@ -48936,6 +48950,27 @@ Diode-dual_Split
 0
 12
 2
+Keeb_footprints
+EC11_cutout_plated
+
+
+0
+0
+0
+Keeb_footprints
+ICSP-Header-ZigZag_small_pins
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+Keeb_footprints
+ICSP-Header_small_pins
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
 Keeb_footprints
 MX100
 
@@ -48979,6 +49014,27 @@ MX100_slot
 0
 0
 Keeb_footprints
+MX100_slot_plated
+
+
+0
+0
+0
+Keeb_footprints
+MX100_slot_plated_2
+
+
+0
+0
+0
+Keeb_footprints
+MX150_slot_plated_2
+
+
+0
+0
+0
+Keeb_footprints
 MX_125_cutout
 
 
@@ -49015,6 +49071,20 @@ MX_175_cutout
 0
 Keeb_footprints
 MX_200_cutout_plated
+
+
+0
+0
+0
+Keeb_footprints
+MX_200_cutout_plated_2
+
+
+0
+0
+0
+Keeb_footprints
+MX_200_cutout_plated_2_vert
 
 
 0
