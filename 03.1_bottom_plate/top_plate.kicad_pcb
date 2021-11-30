@@ -4271,7 +4271,7 @@
   (gr_text JLCJLCJLCJLC (at 311.945285 100.01271) (layer F.SilkS) (tstamp 5ECA7889)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text github.com/dierickdie (at 197.645285 185.73771) (layer F.SilkS)
+  (gr_text github.com/ricklicious (at 197.645285 185.73771) (layer F.SilkS)
     (effects (font (size 1.25 1.25) (thickness 0.2)))
   )
   (gr_text "niko rev 1.0" (at 197.645285 183.35646) (layer F.SilkS) (tstamp 5E3EC61C)
